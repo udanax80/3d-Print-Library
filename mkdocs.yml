@@ -1,0 +1,117 @@
+site_name: Jon's Print Lab
+site_description: A shared, lifecycle-ordered 3D printing reference — choose, prepare, print, fix, finish, maintain.
+site_author: Jon D
+site_url: https://udanax80.github.io/3d-Print-Library/
+repo_url: https://github.com/udanax80/3d-Print-Library
+repo_name: udanax80/3d-Print-Library
+edit_uri: edit/main/docs/
+copyright: Content © Jon D and contributors · licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
+
+theme:
+  name: material
+  language: en
+  icon:
+    logo: material/printer-3d-nozzle
+  favicon: assets/img/favicon.svg
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: lime
+      toggle:
+        icon: material/weather-night
+        name: Switch to system preference
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - navigation.instant
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - search.share
+    - toc.follow
+    - content.code.copy
+    - content.action.edit
+    - content.tooltips
+
+plugins:
+  - search
+  - tags
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+
+nav:
+  - Home: index.md
+  - Choose:
+      - choose/index.md
+      - Model sources & licenses: choose/model-sources.md
+      - Printer selector: choose/printer-selector.md
+  - Fleet:
+      - fleet/index.md
+  - Materials:
+      - Material matrix: materials/index.md
+      - Drying & storage: materials/drying-storage.md
+      - Material notes (from my guides): materials/material-notes.md
+  - Prepare:
+      - prepare/index.md
+      - Calibration sequence: prepare/calibration.md
+      - Slicer tips (seams, supports, strength): prepare/slicer-tips.md
+      - Multi-material planning: prepare/multi-material.md
+  - Fix:
+      - Troubleshooting by symptom: fix/index.md
+  - Design:
+      - Design for printing: design/index.md
+  - Finish:
+      - Post-processing: finish/index.md
+  - Maintain:
+      - Maintenance checklist: maintain/index.md
+  - Safety:
+      - Ventilation & VOCs: safety/index.md
+  - Contribute:
+      - contribute/index.md
+      - Credits & licensing: contribute/credits.md
+      - Page template: contribute/page-template.md
+  - Tags: tags.md
+
+extra:
+  generator: false

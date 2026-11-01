@@ -1,0 +1,8 @@
+:root { --md-accent-fg-color: #9ccc3c; }
+.md-typeset table:not([class]) { font-size: .72rem; }
+.md-typeset table:not([class]) th { white-space: nowrap; }
+.quick-grid .grid.cards > ul > li { min-height: 7rem; }
+.placeholder-img { border: 2px dashed var(--md-default-fg-color--lighter); border-radius: .4rem; max-width: 360px; }
+.badge-start { background: #fff3cd; color: #5c4400; padding: 0 .4em; border-radius: .3em; font-size: .7rem; font-weight: 600; }
+[data-md-color-scheme="slate"] .badge-start { background: #4a3d10; color: #ffe08a; }
+.md-grid { max-width: 1600px; }
