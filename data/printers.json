@@ -59,6 +59,44 @@
       "notes": "Spec page: PLA, PETG, TPU, and PVA ideal; ABS, ASA, PC, PA, and fiber-filled filaments not recommended. US store calls the A series open-frame."
     },
     {
+      "id": "bambu-p1s",
+      "brand": "Bambu Lab",
+      "model": "P1S",
+      "motion": null,
+      "price_usd": null,
+      "price_note": "Current standalone US price was not verified on 2026-11-07; check the manufacturer or an authorized retailer.",
+      "price_source_url": null,
+      "build_volume_mm": {
+        "x": 256,
+        "y": 256,
+        "z": 256
+      },
+      "build_volume_note": "Nominal manufacturer build volume.",
+      "enclosed": true,
+      "heated_chamber": null,
+      "chamber_max_c": null,
+      "max_nozzle_c": 300,
+      "max_bed_c": 100,
+      "multi_material": {
+        "system": "AMS",
+        "type": "filament changer, optional",
+        "slots": 4,
+        "max_slots": 16,
+        "note": "One original AMS provides four filament slots. Up to four original AMS units with an AMS Hub provide 16 colors; accessories are optional and not an ownership statement."
+      },
+      "top_speed_mm_s": 500,
+      "speed_note": "Maximum toolhead speed, not a guaranteed printing speed.",
+      "best_for": "Enclosed everyday printing with an optional AMS path to multicolor; material profiles and ventilation still matter.",
+      "skill_level": "intermediate",
+      "source_urls": [
+        "https://store.bblcdn.com/63ec128d3b8f4f32b7d60fe4dd112ed3.pdf",
+        "https://blog.bambulab.com/a-farewell-to-p1p/",
+        "https://blog.bambulab.com/ams/"
+      ],
+      "last_checked": "2026-11-07",
+      "notes": "Factory-reference specifications, not the owner's installed nozzle or current operating status. Manufacturer lists PLA, PETG, TPU, ABS, ASA, PVA and PET as ideal, PA and PC as capable, and carbon/glass-fiber polymers as not recommended with the stock stainless-steel nozzle. Active chamber heating is not specified in the cited technical sheet, so heated_chamber and chamber_max_c are null."
+    },
+    {
       "id": "bambu-p2s",
       "brand": "Bambu Lab",
       "model": "P2S",
