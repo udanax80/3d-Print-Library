@@ -39,4 +39,8 @@ mkdocs serve          # live preview at http://127.0.0.1:8000
 ## Adding a printer to the fleet table
 Add a row to `docs/fleet/index.md` with a **manufacturer spec link and the date you checked it** in the *Source / last checked* column. Mark anything unverified as **not verified**.
 
+## Structured data
+
+`data/*.json` is the catalog other tools fetch. The schema notes are in [`data/README.md`](https://github.com/udanax80/3d-Print-Library/blob/main/data/README.md). Change the JSON, not a copied table: the printer comparison, glossary, materials tables, and troubleshooting index are filled in at build time.
+
 See also: [Credits & licensing](credits.md).

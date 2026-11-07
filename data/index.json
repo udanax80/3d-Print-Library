@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "license": "CC BY-NC-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "updated": "2026-11-07",
+  "raw_base_url": "https://raw.githubusercontent.com/udanax80/3d-Print-Library/main/data/",
+  "pages_base_url": "https://udanax80.github.io/3d-Print-Library/data/",
+  "notes": "Fetch raw_base_url from another website. GitHub sends Access-Control-Allow-Origin: * on raw files. pages_base_url is the same JSON copied into the docs site on deploy. null in a record means the source did not state that value.",
+  "files": [
+    {
+      "path": "index.json",
+      "title": "Data catalog",
+      "description": "This file. Lists every JSON file under data/ and the shape of each one.",
+      "schema_notes": "schema_version, license, license_url, updated, raw_base_url, pages_base_url, notes, files[]. path, title, description, and schema_notes are strings."
+    },
+    {
+      "path": "printers.json",
+      "title": "Printer comparison",
+      "description": "Consumer FDM printers with manufacturer specs. Unknown numbers are null.",
+      "schema_notes": "schema_version, updated, currency, disclaimer, picks (beginners, multicolor, engineering, big_prints are arrays of printer id), printers[]. Each printer has id, brand, model, motion, price_usd, price_note, price_source_url, build_volume_mm ({x,y,z} or null), build_volume_note, enclosed, heated_chamber, chamber_max_c, max_nozzle_c, max_bed_c, multi_material (system, type, slots, max_slots, note), top_speed_mm_s, speed_note, best_for, skill_level, source_urls, last_checked, notes. best_for and skill_level are judgments. skill_level is beginner, intermediate, or advanced."
+    },
+    {
+      "path": "glossary.json",
+      "title": "Glossary",
+      "description": "Plain-language definitions of common 3D printing words.",
+      "schema_notes": "schema_version, updated, disclaimer, terms[]. Each term has id, term, and definition."
+    },
+    {
+      "path": "materials.json",
+      "title": "Materials",
+      "description": "Beginner and advanced filament ranges. The spool label still wins.",
+      "schema_notes": "schema_version, updated, disclaimer, sources[], materials[]. Each material has id, name, level (beginner or advanced), nozzle_c {min,max}, bed_c {min,max}, enclosure (no, optional, or yes), chamber_note, dry_c {min,max}, dry_hours, good_for, watch_outs, source_url."
+    },
+    {
+      "path": "troubleshooting.json",
+      "title": "Troubleshooting",
+      "description": "Print defects with symptom, ordered causes, fixes, and difficulty.",
+      "schema_notes": "schema_version, updated, disclaimer, defects[]. Each defect has id, title, symptom, difficulty (easy, medium, or hard), image, page, causes[] (cause, fix), and source_urls."
+    }
+  ]
+}

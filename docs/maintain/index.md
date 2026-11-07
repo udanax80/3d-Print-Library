@@ -12,7 +12,19 @@ tags:
 
 # Maintain: maintenance checklist
 
-A generic schedule that works across the fleet. **The manufacturer's maintenance page for each printer wins** where it differs. Bambu: [X1 Maintenance Recommendation](https://wiki.bambulab.com/en/x1/maintenance/basic-maintenance). Prusa (good general reference): [Regular printer maintenance](https://help.prusa3d.com/article/regular-printer-maintenance-mk4-s-mk3-9-s_419000).
+A generic schedule. **The manufacturer's maintenance page for your printer wins** where it differs. Bambu: [X1 Maintenance Recommendation](https://wiki.bambulab.com/en/x1/maintenance/basic-maintenance). Prusa (a clear general reference): [Regular printer maintenance](https://help.prusa3d.com/article/regular-printer-maintenance-mk4-s-mk3-9-s_419000).
+
+## Calendar
+
+| When | The idea | Do the section below |
+|---|---|---|
+| Every print | The plate and the nozzle tell you the truth | Every print / daily |
+| Weekly, or about 50 print hours | Dust and filament crumbs | Weekly |
+| Monthly, or about 200 print hours | Belts, gears, fans | Monthly |
+| A few times a year | Parts that wear out slowly | Every 3–6 months |
+| Once a year | A quiet hour with the power off | Yearly |
+
+Hours are a nudge, not a service manual. A printer that runs all day hits "monthly" in a week. A printer that runs on Sundays can stay on the calendar.
 
 ## Every print / daily
 - [ ] Clean the plate (IPA wipe, soap and water for PEI when grip drops)
@@ -31,6 +43,13 @@ A generic schedule that works across the fleet. **The manufacturer's maintenance
 - [ ] Clean extruder gears. Check the cutter (AMS/CFS) and filament sensors
 - [ ] Clean fans (hotend, part cooling, chamber) and check the chamber/carbon filter
 - [ ] Tool changers (U1, Creator 5 Pro): clean docks and wipers. Re-run tool-offset calibration
+
+## Yearly
+- [ ] Power off and look at the frame: loose screws, cracked printed parts, worn cable chains
+- [ ] Update firmware only from the maker, and read the note before you confirm
+- [ ] Run a full calibration (bed mesh, input shaping, flow) and save it
+- [ ] Replace the nozzle if the tip looks oval, even if fiber filament is not the reason
+- [ ] Order the spare you used up this year so the next failure is a ten-minute job
 
 ## Every 3–6 months / as needed
 - [ ] Replace the nozzle (sooner with CF/GF in brass or stainless)

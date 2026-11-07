@@ -5,6 +5,8 @@ Jon's Print Lab: a shared 3D printing reference, built with [MkDocs Material](ht
 
 Written content is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). See [LICENSE](LICENSE).
 
+Structured catalogs for dashboards live in [`data/`](data/README.md). Fetch [`data/index.json`](https://raw.githubusercontent.com/udanax80/3d-Print-Library/main/data/index.json) from git `main`. The same files are copied into the GitHub Pages site at `https://udanax80.github.io/3d-Print-Library/data/`.
+
 ## Run locally
 ```bash
 python -m venv .venv && source .venv/bin/activate

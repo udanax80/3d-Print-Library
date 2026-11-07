@@ -36,3 +36,19 @@ Most community models use [Creative Commons licenses](https://creativecommons.or
     This table is a quick orientation. The license text on the model page is what counts. Some designers also sell separate commercial licenses.
 
 **Habit worth keeping:** record source URL, designer, license, and date downloaded next to every model you keep. (My private dashboard has a *Model licenses* tracker for this.)
+
+## More places, and people who answer
+
+| Place | Use it for |
+|---|---|
+| [Thangs](https://thangs.com/) | Search across several model sites at once |
+| [MyMiniFactory](https://www.myminifactory.com/) | Designer-published models, often with a clear license |
+| [Printables](https://www.printables.com/) | Already in the table above. The comments and "makes" are the quality check |
+| [MakerWorld](https://makerworld.com/) | Ready-made Bambu projects. Re-slice for other printers |
+| [Prusa forum](https://forum.prusa3d.com/) | MK4S, CORE One, MMU, and slicer questions |
+| [Bambu Lab forum](https://forum.bambulab.com/) | Bambu printers, AMS, and Studio |
+| [r/3Dprinting](https://www.reddit.com/r/3Dprinting/) | General "what should I buy" and show-and-tell |
+| [r/FixMyPrint](https://www.reddit.com/r/FixMyPrint/) | A photo of a failed part and a useful reply |
+| [Prusa Knowledge Base](https://help.prusa3d.com/) | The articles this site cites for defects and materials |
+
+This site's own files are [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/): credit Jon D, no commercial use, share changes under the same license. A model you download keeps **its** license. The site license does not replace that.

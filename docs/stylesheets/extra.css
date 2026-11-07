@@ -6,3 +6,12 @@
 .badge-start { background: #fff3cd; color: #5c4400; padding: 0 .4em; border-radius: .3em; font-size: .7rem; font-weight: 600; }
 [data-md-color-scheme="slate"] .badge-start { background: #4a3d10; color: #ffe08a; }
 .md-grid { max-width: 1600px; }
+.print-table-wrap { overflow-x: auto; margin: 1rem 0 1.5rem; }
+.print-table-wrap table.sortable { font-size: .8rem; width: max-content; min-width: 100%; }
+.print-table-wrap table.sortable th { cursor: pointer; white-space: nowrap; }
+.print-table-wrap table.sortable td { vertical-align: top; }
+.print-table-wrap table.sortable td:nth-child(1),
+.print-table-wrap table.sortable td:nth-child(2),
+.print-table-wrap table.sortable td:nth-child(3),
+.print-table-wrap table.sortable td:nth-child(6),
+.print-table-wrap table.sortable td:nth-child(8) { white-space: nowrap; }

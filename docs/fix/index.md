@@ -23,20 +23,15 @@ Find the symptom, check the causes **in order** (most likely and cheapest first)
     2. **Is the plate clean** and correct for this material?
     3. **Is the profile for this exact filament, nozzle, and printer?**
 
-| Symptom | Jump to |
-|---|---|
-| Hairs or strings between parts | [Stringing](#stringing) |
-| Corners lifting, base curling | [Warping](#warping) |
-| Layers offset sideways (staircase) | [Layer shifts](#layer-shifts) |
-| Bottom layers bulge outward | [Elephant's foot](#elephants-foot) |
-| Gaps, thin walls, weak/missing lines | [Under-extrusion](#under-extrusion) |
-| Regular horizontal ridges on the walls | [Z-banding](#z-banding) |
-| First layer won't stick, or print pops off | [Bed adhesion](#bed-adhesion) |
-| Popping, bubbles, fuzzy surface, sudden stringing | [Wet filament](#wet-filament) |
+Difficulty is **easy** (clean, dry, or one slider), **medium** (a test plus a mechanical check), or **hard** (the printer's mechanics). The same records are in [`data/troubleshooting.json`](https://raw.githubusercontent.com/udanax80/3d-Print-Library/main/data/troubleshooting.json).
+
+<!-- TROUBLE-INDEX -->
 
 ---
 
 ## Stringing
+
+**Difficulty: easy.** Dry the spool before you touch retraction.
 
 ![Stringing photo placeholder](../assets/img/fix-stringing.svg){ .placeholder-img loading=lazy }
 
@@ -52,6 +47,8 @@ Source: [Prusa KB: Stringing and oozing](https://help.prusa3d.com/article/string
 
 ## Warping
 
+**Difficulty: medium.** Drafts and an open door matter as much as the slicer.
+
 ![Warping photo placeholder](../assets/img/fix-warping.svg){ .placeholder-img loading=lazy }
 
 | Likely cause | Fix |
@@ -65,6 +62,8 @@ Source: [Prusa KB: Stringing and oozing](https://help.prusa3d.com/article/string
 Source: [Prusa KB: Warping](https://help.prusa3d.com/article/warping_2011) · [Prusa KB: Enclosure guidepost](https://help.prusa3d.com/article/enclosure-guidepost_366332)
 
 ## Layer shifts
+
+**Difficulty: medium.** Listen for a thud. That is a skipped step, not a bad model.
 
 ![Layer shift photo placeholder](../assets/img/fix-layer-shift.svg){ .placeholder-img loading=lazy }
 
@@ -80,6 +79,8 @@ Source: [Prusa KB: Layer shifting](https://help.prusa3d.com/article/layer-shifti
 
 ## Elephant's foot
 
+**Difficulty: easy.** The bottom is squished or still soft.
+
 ![Elephant's foot photo placeholder](../assets/img/fix-elephants-foot.svg){ .placeholder-img loading=lazy }
 
 | Likely cause | Fix |
@@ -91,6 +92,8 @@ Source: [Prusa KB: Layer shifting](https://help.prusa3d.com/article/layer-shifti
 Source: [Prusa KB: Elephant foot compensation](https://help.prusa3d.com/article/elephant-foot-compensation_114487)
 
 ## Under-extrusion
+
+**Difficulty: medium.** Not enough plastic is leaving the nozzle.
 
 ![Under-extrusion photo placeholder](../assets/img/fix-under-extrusion.svg){ .placeholder-img loading=lazy }
 
@@ -108,6 +111,8 @@ Source: [Prusa KB: Under-extrusion](https://help.prusa3d.com/article/under-extru
 
 ## Z-banding
 
+**Difficulty: hard.** Regular ridges are usually the Z axis, not the filament profile.
+
 ![Z-banding photo placeholder](../assets/img/fix-z-banding.svg){ .placeholder-img loading=lazy }
 
 Regular, repeating horizontal ridges (often matching the lead screw pitch) are usually **mechanical**. Irregular ridges are usually **extrusion or temperature** problems.
@@ -124,6 +129,8 @@ Source: [Prusa KB: Regular printer maintenance (MK4/MK3.9)](https://help.prusa3d
 
 ## Bed adhesion
 
+**Difficulty: easy.** Clean plate, correct Z-offset, then temperature.
+
 ![Bed adhesion photo placeholder](../assets/img/fix-bed-adhesion.svg){ .placeholder-img loading=lazy }
 
 | Likely cause | Fix |
@@ -139,6 +146,8 @@ Source: [Prusa KB: First layer issues](https://help.prusa3d.com/article/first-la
 
 ## Wet filament
 
+**Difficulty: easy.** If it pops at the nozzle, dry it before you retune the profile.
+
 ![Wet filament photo placeholder](../assets/img/fix-wet-filament.svg){ .placeholder-img loading=lazy }
 
 | Symptom | Fix |
@@ -150,6 +159,18 @@ Source: [Prusa KB: First layer issues](https://help.prusa3d.com/article/first-la
 | Supports on PA fused or hard to remove | Remove supports within ~2 h of printing ([Bambu](https://wiki.bambulab.com/en/software/bambu-studio/support)) |
 
 Source: [Prusa KB: Drying filament](https://help.prusa3d.com/article/drying-filament_332086) · [Bambu Wiki: Filament drying](https://wiki.bambulab.com/en/filament-acc/filament/dry-filament)
+
+## Spaghetti
+
+**Difficulty: easy.** A nest of loose filament means the part let go, or a layer printed in the air.
+
+Stop the job. Do not peel hot plastic off the nozzle with your fingers. Clear the cooled blob, then fix [bed adhesion](#bed-adhesion) and watch the next first layer. If the printer has a camera failure check, turn it on for long prints.
+
+## Nozzle clog
+
+**Difficulty: medium.** The extruder clicks and the print goes hollow.
+
+Heat the nozzle and try a cold pull at the temperatures in your printer's guide, or fit a fresh nozzle. On PLA, open the enclosure so heat creep does not soften the filament above the melt zone. If you print carbon fiber, the nozzle should be hardened, not plain brass. The same causes are listed under [under-extrusion](#under-extrusion).
 
 ---
 

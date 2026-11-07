@@ -7,8 +7,19 @@ hide:
 
 # Jon's Print Lab
 
-**A shared 3D printing reference, organized the way a print actually happens:**
-Choose → Prepare → Print → Fix → Finish → Maintain.
+**A shared 3D printing reference.** New here? Start with six short steps, then use the rest as a manual.
+
+<div class="grid cards quick-grid" markdown>
+
+-   :material-map-marker-path: **[Start here](start/index.md)**
+
+    What printing is, a first printer, a first layer, and a first real part.
+
+-   :material-cart: **[What to buy](buy/index.md)**
+
+    Printer types, budget, and a dated comparison. Empty cells mean the maker did not say.
+
+</div>
 
 !!! tip "Search first"
     Press ++slash++ or ++s++ (or click the search box at the top) and type a symptom, material, or printer, such as `stringing`, `PETG drying`, `K2 Plus`, or `support interface`.
@@ -55,4 +66,4 @@ Choose → Prepare → Print → Fix → Finish → Maintain.
 
 ---
 
-<small>Fleet and library last updated **October 31, 2026**. Private lab tools (subscriptions, cost calculator, project queue, maintenance tracker, licenses) stay on my personal dashboard and aren't part of this public site.</small>
+<small>Fleet notes last checked **October 31, 2026**. The beginner pages and the JSON catalogs were checked **November 7, 2026**. Private lab tools stay on my personal dashboard and aren't part of this public site. Dashboards can fetch [`data/index.json`](https://raw.githubusercontent.com/udanax80/3d-Print-Library/main/data/index.json).</small>
