@@ -6,6 +6,7 @@ title: Prepare
 
 Everything between "I have a model" and "press print":
 
+- **[Slicer basics](slicer-basics.md)**: the ten settings that matter if you are new.
 - **[Calibration sequence](calibration.md)**: tune each new filament on each printer once, then save the profile.
 - **[Slicer tips](slicer-tips.md)**: seam placement, support tuning, and strength settings.
 - **[Multi-material planning](multi-material.md)**: tool changer vs AMS/CFS, purge, and support-interface pairs.

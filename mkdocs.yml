@@ -53,11 +53,15 @@ plugins:
   - search
   - tags
 
-hooks:
-  - hooks/prints.py
-
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/table-sort.js
+
+hooks:
+  - hooks/prints.py
+  - hooks/reference_data.py
 
 markdown_extensions:
   - abbr
@@ -86,6 +90,11 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Recent prints: prints/index.md
+  - Start here: start/index.md
+  - Buy a printer:
+      - What to buy: buy/index.md
+      - Printer comparison: buy/printers.md
+  - Glossary: glossary.md
   - Choose:
       - choose/index.md
       - Model sources & licenses: choose/model-sources.md
@@ -93,11 +102,13 @@ nav:
   - Fleet:
       - fleet/index.md
   - Materials:
+      - Materials 101: materials/beginner.md
       - Material matrix: materials/index.md
       - Drying & storage: materials/drying-storage.md
       - Material notes (from my guides): materials/material-notes.md
   - Prepare:
       - prepare/index.md
+      - Slicer basics: prepare/slicer-basics.md
       - Calibration sequence: prepare/calibration.md
       - Slicer tips (seams, supports, strength): prepare/slicer-tips.md
       - Multi-material planning: prepare/multi-material.md

@@ -16,3 +16,12 @@
 .print-swatches { display: flex; flex-wrap: wrap; gap: .45rem 1rem; margin: .2rem 0 1rem; }
 .print-swatch-item { display: inline-flex; align-items: center; gap: .4rem; }
 .print-swatch { width: .95rem; height: .95rem; border-radius: 50%; border: 1px solid rgba(128, 128, 128, .55); flex: 0 0 auto; }
+.md-typeset .print-table-wrap { display: block; max-width: 100%; overflow-x: auto; margin: 1rem 0 1.5rem; }
+.md-typeset .print-table-wrap table.sortable { display: table; width: max-content; max-width: none; min-width: 100%; font-size: .8rem; table-layout: auto; }
+.md-typeset .print-table-wrap table.sortable th { cursor: pointer; white-space: nowrap; }
+.md-typeset .print-table-wrap table.sortable td { vertical-align: top; overflow: visible; }
+.md-typeset .print-table-wrap table.sortable td:nth-child(1),
+.md-typeset .print-table-wrap table.sortable td:nth-child(2),
+.md-typeset .print-table-wrap table.sortable td:nth-child(3),
+.md-typeset .print-table-wrap table.sortable td:nth-child(6),
+.md-typeset .print-table-wrap table.sortable td:nth-child(8) { white-space: nowrap; padding-right: .8rem; }

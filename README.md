@@ -16,6 +16,8 @@ Each file is committed in git (these `.3mf` projects are about 3 MB, under GitHu
 
 The exact URL for every file, and the `print.json` schema, are in [`prints/README.md`](prints/README.md).
 
+Structured catalogs for dashboards live in [`data/`](data/README.md). Fetch [`data/index.json`](https://raw.githubusercontent.com/udanax80/3d-Print-Library/main/data/index.json) from git `main`. The same files are copied into the GitHub Pages site at `https://udanax80.github.io/3d-Print-Library/data/`.
+
 ## Run locally
 ```bash
 python -m venv .venv && source .venv/bin/activate
