@@ -60,6 +60,7 @@ extra_javascript:
   - javascripts/table-sort.js
 
 hooks:
+  - hooks/prints.py
   - hooks/reference_data.py
 
 markdown_extensions:
@@ -88,6 +89,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Recent prints: prints/index.md
   - Start here: start/index.md
   - Buy a printer:
       - What to buy: buy/index.md

@@ -1,3 +1,4 @@
+# prints/ is published on purpose (3MF, PNG, JSON). Do not ignore those types.
 site/
 .venv/
 __pycache__/

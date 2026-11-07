@@ -28,6 +28,10 @@ hide:
 
 <div class="grid cards quick-grid" markdown>
 
+-   :material-download: **[Recent prints](prints/index.md)**
+
+    Bambu Studio projects from the lab, with settings, previews, and the `.3mf` downloads.
+
 -   :material-thermometer: **[Material matrix](materials/index.md)**
 
     Nozzle, bed, and chamber temps, drying, enclosure needs, and the usual failures for PLA, PETG, ABS/ASA, TPU, PA/PA-CF, and PC.
@@ -66,4 +70,4 @@ hide:
 
 ---
 
-<small>Fleet notes last checked **October 31, 2026**. The beginner pages and the JSON catalogs were checked **November 7, 2026**. Private lab tools stay on my personal dashboard and aren't part of this public site. Dashboards can fetch [`data/index.json`](https://raw.githubusercontent.com/udanax80/3d-Print-Library/main/data/index.json).</small>
+<small>Fleet notes last checked **October 31, 2026**. Beginner pages, print files, and JSON catalogs were checked **November 7, 2026**. Private lab tools stay on my personal dashboard and aren't part of this public site. Print-ready files are on [Recent prints](prints/index.md). Dashboards can fetch [`data/index.json`](https://raw.githubusercontent.com/udanax80/3d-Print-Library/main/data/index.json).</small>
