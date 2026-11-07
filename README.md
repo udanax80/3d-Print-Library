@@ -3,7 +3,18 @@
 Jon's Print Lab: a shared 3D printing reference, built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) and organized by print lifecycle:
 **Choose → Fleet → Materials → Prepare → Fix → Design → Finish → Maintain → Safety → Contribute.**
 
-Written content is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). See [LICENSE](LICENSE).
+Written content and the print files in [`prints/`](prints/README.md) are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). See [LICENSE](LICENSE).
+
+## Print files
+
+Ready-to-print projects live in [`prints/`](prints/README.md), one folder per print, starting with `prints/jollibee-barrel-man/`. The site shows them on **Recent prints**. A dashboard can fetch [`prints/index.json`](prints/index.json).
+
+Each file is committed in git (these `.3mf` projects are about 3 MB, under GitHub's limits) and copied into the GitHub Pages site on deploy:
+
+- Raw, branch `main`: `https://raw.githubusercontent.com/udanax80/3d-Print-Library/main/prints/`
+- Pages, after deploy: `https://udanax80.github.io/3d-Print-Library/prints/`
+
+The exact URL for every file, and the `print.json` schema, are in [`prints/README.md`](prints/README.md).
 
 ## Run locally
 ```bash

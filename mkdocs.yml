@@ -53,6 +53,9 @@ plugins:
   - search
   - tags
 
+hooks:
+  - hooks/prints.py
+
 extra_css:
   - stylesheets/extra.css
 
@@ -82,6 +85,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Recent prints: prints/index.md
   - Choose:
       - choose/index.md
       - Model sources & licenses: choose/model-sources.md
