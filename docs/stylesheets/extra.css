@@ -6,3 +6,13 @@
 .badge-start { background: #fff3cd; color: #5c4400; padding: 0 .4em; border-radius: .3em; font-size: .7rem; font-weight: 600; }
 [data-md-color-scheme="slate"] .badge-start { background: #4a3d10; color: #ffe08a; }
 .md-grid { max-width: 1600px; }
+.print-shots img { width: 100%; height: auto; background: #fff; border-radius: .35rem; border: 1px solid var(--md-default-fg-color--lightest); }
+.print-meta { font-size: .85rem; }
+.print-meta th { text-align: left; font-weight: 600; width: 9rem; padding: .35rem 1rem .35rem 0; vertical-align: top; }
+.print-meta td { padding: .35rem 0; vertical-align: top; }
+.print-actions { display: flex; flex-wrap: wrap; gap: .5rem; margin: .4rem 0 1rem; }
+.print-actions p { margin: 0; }
+.print-actions .md-button { margin: 0; }
+.print-swatches { display: flex; flex-wrap: wrap; gap: .45rem 1rem; margin: .2rem 0 1rem; }
+.print-swatch-item { display: inline-flex; align-items: center; gap: .4rem; }
+.print-swatch { width: .95rem; height: .95rem; border-radius: 50%; border: 1px solid rgba(128, 128, 128, .55); flex: 0 0 auto; }

@@ -20,6 +20,8 @@ Other references are **linked, not copied**: Bambu Lab Wiki, Prusa Knowledge Bas
 
 All written content is licensed under **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)**: share and adapt with credit, non-commercially, under the same license. See `LICENSE`.
 
+Print-ready project files in `prints/` use that same license. Each `print.json` repeats the license name so a download still carries it.
+
 By opening a PR, contributors agree their contribution is published under the site's license and that they have the right to share any photos they add.
 
 ## Trademarks

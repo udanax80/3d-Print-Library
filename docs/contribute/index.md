@@ -39,4 +39,8 @@ mkdocs serve          # live preview at http://127.0.0.1:8000
 ## Adding a printer to the fleet table
 Add a row to `docs/fleet/index.md` with a **manufacturer spec link and the date you checked it** in the *Source / last checked* column. Mark anything unverified as **not verified**.
 
+## Adding a print
+
+Print-ready files do not go in `docs/`. Add a folder under [`prints/`](https://github.com/udanax80/3d-Print-Library/tree/main/prints) with a `print.json`, the project files, and preview images, then list it in `prints/index.json`. The folder layout and the schema are in [`prints/README.md`](https://github.com/udanax80/3d-Print-Library/blob/main/prints/README.md). The [Recent prints](../prints/index.md) page builds its cards from those JSON files.
+
 See also: [Credits & licensing](credits.md).

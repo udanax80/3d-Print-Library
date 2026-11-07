@@ -17,6 +17,10 @@ Choose → Prepare → Print → Fix → Finish → Maintain.
 
 <div class="grid cards quick-grid" markdown>
 
+-   :material-download: **[Recent prints](prints/index.md)**
+
+    Bambu Studio projects from the lab, with settings, previews, and the `.3mf` downloads.
+
 -   :material-thermometer: **[Material matrix](materials/index.md)**
 
     Nozzle, bed, and chamber temps, drying, enclosure needs, and the usual failures for PLA, PETG, ABS/ASA, TPU, PA/PA-CF, and PC.
@@ -55,4 +59,4 @@ Choose → Prepare → Print → Fix → Finish → Maintain.
 
 ---
 
-<small>Fleet and library last updated **October 31, 2026**. Private lab tools (subscriptions, cost calculator, project queue, maintenance tracker, licenses) stay on my personal dashboard and aren't part of this public site.</small>
+<small>Fleet and library last updated **November 7, 2026**. Private lab tools (subscriptions, cost calculator, project queue, maintenance tracker, licenses) stay on my personal dashboard and aren't part of this public site. Print-ready project files are on [Recent prints](prints/index.md).</small>
