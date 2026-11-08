@@ -78,7 +78,9 @@
         "Open-frame desktop printer",
         "Automatic calibration"
       ],
-      "material_note": "ABS, ASA, PC, PA and fiber-filled filaments are not recommended. AMS Lite has separate filament restrictions."
+      "material_note": "ABS, ASA, PC, PA and fiber-filled filaments are not recommended. AMS Lite has separate filament restrictions.",
+      "image_url": "https://cdn.shopify.com/s/files/1/0651/1555/4032/files/Vector.png?v=1733898304",
+      "image_source_url": "https://bambu-lab-ca.myshopify.com/products/a1-mini"
     },
     {
       "id": "bambu-a1",
@@ -130,7 +132,9 @@
         "Open-frame desktop printer",
         "Automatic calibration"
       ],
-      "material_note": "ABS, ASA, PC, PA and fiber-filled filaments are not recommended. AMS Lite has separate filament restrictions."
+      "material_note": "ABS, ASA, PC, PA and fiber-filled filaments are not recommended. AMS Lite has separate filament restrictions.",
+      "image_url": "https://cdn.shopify.com/s/files/1/0651/1555/4032/files/A1C.jpg?v=1733370608",
+      "image_source_url": "https://bambu-lab-ca.myshopify.com/products/a1"
     },
     {
       "id": "bambu-p1s",
@@ -567,7 +571,8 @@
       "source_urls": [
         "https://bambulab.cn/zh-cn/h3c/specs",
         "https://bambulab.com/en/h3c/specs",
-        "https://us.store.bambulab.com/collections/3d-printer"
+        "https://us.store.bambulab.com/collections/3d-printer",
+        "https://blog.bambulab.com/tool-changer-game-changer-bambu-lab-presents-h3c-the-defining-new-generation-of-3d-printers/"
       ],
       "last_checked": "2026-11-07",
       "notes": "Enclosure type Enclosed and active chamber heating to 65 °C are on the spec page.",
@@ -939,7 +944,9 @@
       ],
       "bed_temperature_note": "Inner 260 × 260 mm zone: 110°C; outer area: 80°C.",
       "print_speed_mm_s": 180,
-      "material_note": "Reinforced nylon requires the appropriate wear-resistant nozzle. Laser/CNC capabilities depend on the purchased modules."
+      "material_note": "Reinforced nylon requires the appropriate wear-resistant nozzle. Laser/CNC capabilities depend on the purchased modules.",
+      "image_url": "https://ditfjx9w4x3vl.cloudfront.net/assets/artisan/artisan-subscribe-compressed.jpg",
+      "image_source_url": "https://www.snapmaker.com/en-US/snapmaker-artisan"
     },
     {
       "id": "flashforge-ad5x",
@@ -1292,8 +1299,8 @@
       "build_volume_note": null,
       "enclosed": true,
       "heated_chamber": true,
-      "chamber_max_c": null,
-      "max_nozzle_c": null,
+      "chamber_max_c": 65,
+      "max_nozzle_c": 370,
       "max_bed_c": 120,
       "multi_material": {
         "system": "QIDI Box",
@@ -1304,7 +1311,7 @@
       },
       "top_speed_mm_s": 600,
       "speed_note": null,
-      "best_for": "A heated-chamber printer in this size, after you reconcile the conflicting temperatures on QIDI's own page.",
+      "best_for": "Large engineering-material parts with an actively heated chamber.",
       "skill_level": "advanced",
       "source_urls": [
         "https://us.qidi3d.com/pages/qidi-plus-4-techspecs",
