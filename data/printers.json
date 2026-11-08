@@ -264,7 +264,7 @@
       "id": "bambu-x1c",
       "brand": "Bambu Lab",
       "model": "X1 Carbon",
-      "motion": null,
+      "motion": "CoreXY",
       "price_usd": null,
       "price_note": "Not listed on the Bambu Lab US store collection page fetched 2026-11-07.",
       "price_source_url": "https://us.store.bambulab.com/collections/3d-printer",
@@ -293,7 +293,8 @@
       "source_urls": [
         "https://public-cdn.bambulab.com/store/bambulab-X1-carbon-tech-specs.pdf?v=20250715085516",
         "https://public-cdn.bambulab.com/store/X1-Carbon%20tech%20specs.pdf",
-        "https://blog.bambulab.com/ams/"
+        "https://blog.bambulab.com/ams/",
+        "https://blog.bambulab.com/how-much-does-a-3d-printer-cost/"
       ],
       "last_checked": "2026-11-07",
       "notes": "Hardened steel nozzle and extruder gears; Micro-LiDAR and a 1080p monitoring camera. Bed temperature depends on supply voltage.",
@@ -633,16 +634,16 @@
       "brand": "Creality",
       "model": "Hi",
       "motion": null,
-      "price_usd": null,
-      "price_note": "The Hi Combo product page fetched 2026-11-07 did not show a USD price.",
-      "price_source_url": "https://www.creality.com/products/creality-hi-combo",
+      "price_usd": 299,
+      "price_note": "Manufacturer US listing: $299 printer only; $399 Combo with CFS. Both listed as sold out; verify availability.",
+      "price_source_url": "https://store.creality.com/products/creality-hi-combo-3d-printer",
       "build_volume_mm": {
         "x": 260,
         "y": 260,
         "z": 300
       },
       "build_volume_note": null,
-      "enclosed": null,
+      "enclosed": false,
       "heated_chamber": false,
       "chamber_max_c": null,
       "max_nozzle_c": 300,
@@ -659,7 +660,8 @@
       "best_for": "Taller multicolor PLA and PETG without buying a second machine for color.",
       "skill_level": "beginner",
       "source_urls": [
-        "https://www.creality.com/products/creality-hi-combo"
+        "https://www.creality.com/products/creality-hi-combo",
+        "https://store.creality.com/products/creality-hi-combo-3d-printer"
       ],
       "last_checked": "2026-11-07",
       "notes": "Nozzle ≤ 300 °C and heatbed ≤ 100 °C. The page does not say whether the frame is enclosed, so enclosed and heated_chamber are null. Supported printer filaments listed: Hyper-PLA, PLA, PETG, ABS, PLA-CF.",
@@ -694,7 +696,7 @@
         "z": 250
       },
       "build_volume_note": null,
-      "enclosed": null,
+      "enclosed": true,
       "heated_chamber": null,
       "chamber_max_c": null,
       "max_nozzle_c": 300,
@@ -869,16 +871,16 @@
       "brand": "Snapmaker",
       "model": "J1s",
       "motion": "idex",
-      "price_usd": null,
-      "price_note": "The spec page fetched 2026-11-07 did not show a USD price.",
-      "price_source_url": null,
+      "price_usd": 1399,
+      "price_note": "Manufacturer comparison lists $1,399 MSRP. This is a reference MSRP, not a live checkout quote.",
+      "price_source_url": "https://us.snapmaker.com/pages/snapmaker-3d-printer",
       "build_volume_mm": {
         "x": 300,
         "y": 200,
         "z": 200
       },
       "build_volume_note": "Default / backup: 300 × 200 × 200 mm. Copy: 160 × 200 × 200 mm per copy; mirror: 150 × 200 × 200 mm per side.",
-      "enclosed": null,
+      "enclosed": true,
       "heated_chamber": null,
       "chamber_max_c": null,
       "max_nozzle_c": 300,
@@ -930,16 +932,16 @@
       "brand": "Snapmaker",
       "model": "Artisan",
       "motion": "Cartesian linear modules",
-      "price_usd": null,
-      "price_note": "The spec page fetched 2026-11-07 did not show a USD price.",
-      "price_source_url": null,
+      "price_usd": 2999,
+      "price_note": "Manufacturer comparison lists $2,999 MSRP for the 3-in-1 configuration. Module bundles and current checkout pricing may differ.",
+      "price_source_url": "https://us.snapmaker.com/pages/snapmaker-3d-printer",
       "build_volume_mm": {
         "x": 350,
         "y": 400,
         "z": 400
       },
       "build_volume_note": "Dual nozzle 350 × 400 × 400 mm. Left nozzle 375 × 400 × 400 mm. Right nozzle 400 × 400 × 400 mm.",
-      "enclosed": null,
+      "enclosed": true,
       "heated_chamber": null,
       "chamber_max_c": null,
       "max_nozzle_c": 300,
@@ -1001,8 +1003,8 @@
         "z": 220
       },
       "build_volume_note": null,
-      "enclosed": null,
-      "heated_chamber": null,
+      "enclosed": false,
+      "heated_chamber": false,
       "chamber_max_c": null,
       "max_nozzle_c": 300,
       "max_bed_c": 110,
