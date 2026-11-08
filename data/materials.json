@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-07",
+  "disclaimer": "Typical ranges for ordinary grades, not a setting to type in blindly. The number on the spool and the printer's filament profile win. Specialty blends (silk, high-flow, carbon fiber) can sit outside these ranges.",
+  "sources": [
+    {"name": "Prusa Material Guide", "url": "https://help.prusa3d.com/materials"},
+    {"name": "Bambu Lab Filament Guide", "url": "https://wiki.bambulab.com/en/general/filament-guide-material-table"}
+  ],
+  "materials": [
+    {
+      "id": "pla",
+      "name": "PLA",
+      "level": "beginner",
+      "nozzle_c": {"min": 190, "max": 230},
+      "bed_c": {"min": 45, "max": 65},
+      "enclosure": "no",
+      "chamber_note": "Keep it cool. Lid or door open on an enclosed printer. Heat creep starts when the box gets hot.",
+      "dry_c": {"min": 45, "max": 55},
+      "dry_hours": "4–8",
+      "good_for": "First prints, models, and indoor parts that will not get hot.",
+      "watch_outs": "Softens around a hot car or a sunny windowsill. Strings if it is wet or too hot.",
+      "source_url": "https://help.prusa3d.com/article/pla_2062"
+    },
+    {
+      "id": "petg",
+      "name": "PETG",
+      "level": "beginner",
+      "nozzle_c": {"min": 220, "max": 260},
+      "bed_c": {"min": 70, "max": 90},
+      "enclosure": "optional",
+      "chamber_note": "Ambient is fine. A closed hot box is not required.",
+      "dry_c": {"min": 55, "max": 65},
+      "dry_hours": "4–8",
+      "good_for": "Clips, brackets, and parts that need to be tougher than PLA.",
+      "watch_outs": "Strings. Sticks hard to smooth PEI, so use glue or a textured plate as a release layer.",
+      "source_url": "https://help.prusa3d.com/article/petg_2059"
+    },
+    {
+      "id": "tpu",
+      "name": "TPU",
+      "level": "beginner",
+      "nozzle_c": {"min": 210, "max": 240},
+      "bed_c": {"min": 30, "max": 60},
+      "enclosure": "no",
+      "chamber_note": "Ambient. The limit is the extruder, not the chamber.",
+      "dry_c": {"min": 50, "max": 60},
+      "dry_hours": "4–8",
+      "good_for": "Grips, bumpers, and hinges. 95A is a common firm grade.",
+      "watch_outs": "Print slowly. Soft grades buckle in the extruder and are often banned from AMS/CFS units. Check the spool.",
+      "source_url": "https://help.prusa3d.com/article/flexible-materials_2057"
+    },
+    {
+      "id": "abs",
+      "name": "ABS",
+      "level": "beginner",
+      "nozzle_c": {"min": 240, "max": 270},
+      "bed_c": {"min": 90, "max": 110},
+      "enclosure": "yes",
+      "chamber_note": "Warm air, roughly 40–60 °C, passive or heated. Drafts lift corners.",
+      "dry_c": {"min": 60, "max": 80},
+      "dry_hours": "4–8",
+      "good_for": "Functional parts that see more heat than PLA, when you can enclose and ventilate.",
+      "watch_outs": "Warps. Gives off styrene. Do not print it in a bedroom. See Safety.",
+      "source_url": "https://help.prusa3d.com/article/abs_2058"
+    },
+    {
+      "id": "asa",
+      "name": "ASA",
+      "level": "beginner",
+      "nozzle_c": {"min": 240, "max": 270},
+      "bed_c": {"min": 90, "max": 110},
+      "enclosure": "yes",
+      "chamber_note": "Same idea as ABS: warm, still air.",
+      "dry_c": {"min": 60, "max": 80},
+      "dry_hours": "4–8",
+      "good_for": "Outdoor parts. It handles sunlight better than ABS.",
+      "watch_outs": "Warps like ABS and needs the same ventilation. Acetone smoothing works, outdoors.",
+      "source_url": "https://help.prusa3d.com/article/asa_1809"
+    },
+    {
+      "id": "pa",
+      "name": "PA / nylon",
+      "level": "advanced",
+      "nozzle_c": {"min": 260, "max": 300},
+      "bed_c": {"min": 80, "max": 110},
+      "enclosure": "yes",
+      "chamber_note": "Warm to hot, about 40–60 °C or more. PA-CF wants a hardened nozzle.",
+      "dry_c": {"min": 70, "max": 90},
+      "dry_hours": "8–12",
+      "good_for": "Strong, tough parts that see heat and impact.",
+      "watch_outs": "Extremely hygroscopic. Dry it before every print and keep it in a dry box. Carbon fiber wears brass nozzles.",
+      "source_url": "https://help.prusa3d.com/article/polyamide-nylon_167188"
+    },
+    {
+      "id": "pc",
+      "name": "PC",
+      "level": "advanced",
+      "nozzle_c": {"min": 260, "max": 300},
+      "bed_c": {"min": 100, "max": 120},
+      "enclosure": "yes",
+      "chamber_note": "Hot, about 50–60 °C or more. The bed alone is often not enough.",
+      "dry_c": {"min": 70, "max": 90},
+      "dry_hours": "6–8",
+      "good_for": "Parts that must stay stiff when hot.",
+      "watch_outs": "Warps badly. Use glue, a brim, slow first layers, and no drafts.",
+      "source_url": "https://help.prusa3d.com/article/polycarbonate-pc_165812"
+    }
+  ]
+}

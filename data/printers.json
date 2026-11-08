@@ -1,0 +1,1539 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-07",
+  "currency": "USD",
+  "disclaimer": "Numbers and prices are copied from the listed manufacturer pages on last_checked. null means that page did not state a single value. best_for and skill_level are this site's practical judgments from those specs, not a ranking from the manufacturer. 'From' prices are the lowest figure shown and usually exclude multi-material combos.",
+  "picks": {
+    "beginners": [
+      "bambu-a1-mini",
+      "bambu-a1",
+      "flashforge-ad5x"
+    ],
+    "multicolor": [
+      "flashforge-ad5x",
+      "creality-hi",
+      "snapmaker-u1",
+      "bambu-h2c"
+    ],
+    "engineering": [
+      "bambu-h2s",
+      "bambu-x2d",
+      "creality-k2-plus",
+      "prusa-core-one-plus"
+    ],
+    "big_prints": [
+      "creality-k2-plus",
+      "bambu-h2s",
+      "bambu-h3c"
+    ]
+  },
+  "printers": [
+    {
+      "id": "bambu-a1-mini",
+      "brand": "Bambu Lab",
+      "model": "A1 mini",
+      "motion": "Cartesian bed slinger",
+      "price_usd": 199,
+      "price_note": "From $199 USD on the US store. Typical price shown as $219. Combo prices are higher.",
+      "price_source_url": "https://us.store.bambulab.com/collections/3d-printer",
+      "build_volume_mm": {
+        "x": 180,
+        "y": 180,
+        "z": 180
+      },
+      "build_volume_note": null,
+      "enclosed": false,
+      "heated_chamber": false,
+      "chamber_max_c": null,
+      "max_nozzle_c": 300,
+      "max_bed_c": 80,
+      "multi_material": {
+        "system": "AMS Lite",
+        "type": "filament changer, optional combo",
+        "slots": 4,
+        "max_slots": null,
+        "note": "AMS Lite adds four filament positions. It is an optional accessory or part of a Combo; flexible-filament compatibility differs from the printer’s external spool path."
+      },
+      "top_speed_mm_s": 500,
+      "speed_note": "Max speed of toolhead.",
+      "best_for": "A first printer for small PLA parts on a desk.",
+      "skill_level": "beginner",
+      "source_urls": [
+        "https://bambulab.cn/zh-cn/a1-mini/tech-specs",
+        "https://bambulab.com/en/a1-mini/tech-specs",
+        "https://us.store.bambulab.com/collections/3d-printer",
+        "https://blog.bambulab.com/best-3d-printer-for-beginners/"
+      ],
+      "last_checked": "2026-11-07",
+      "notes": "Spec page: PLA, PETG, TPU, and PVA ideal; ABS, ASA, PC, PA, and fiber-filled filaments not recommended. US store calls the A series open-frame, which is why enclosed and heated_chamber are false.",
+      "supported_materials": [
+        "PLA",
+        "PETG",
+        "TPU",
+        "PVA"
+      ],
+      "slicers": [
+        "Bambu Studio"
+      ],
+      "standout_features": [
+        "Open-frame desktop printer",
+        "Automatic calibration"
+      ],
+      "material_note": "ABS, ASA, PC, PA and fiber-filled filaments are not recommended. AMS Lite has separate filament restrictions.",
+      "image_url": "https://cdn.shopify.com/s/files/1/0651/1555/4032/files/Vector.png?v=1733898304",
+      "image_source_url": "https://bambu-lab-ca.myshopify.com/products/a1-mini",
+      "description": "Compact open-frame printer with an 180 mm build cube, automatic calibration and optional four-position AMS Lite. Designed around everyday PLA, PETG and flexible-filament projects; high-warp materials are not recommended."
+    },
+    {
+      "id": "bambu-a1",
+      "brand": "Bambu Lab",
+      "model": "A1",
+      "motion": "Cartesian bed slinger",
+      "price_usd": 259,
+      "price_note": "From $259 USD on the US store. Typical price shown as $299.",
+      "price_source_url": "https://us.store.bambulab.com/collections/3d-printer",
+      "build_volume_mm": {
+        "x": 256,
+        "y": 256,
+        "z": 256
+      },
+      "build_volume_note": null,
+      "enclosed": false,
+      "heated_chamber": false,
+      "chamber_max_c": null,
+      "max_nozzle_c": 300,
+      "max_bed_c": 100,
+      "multi_material": {
+        "system": "AMS Lite",
+        "type": "filament changer, optional combo",
+        "slots": 4,
+        "max_slots": null,
+        "note": "AMS Lite adds four filament positions. It is an optional accessory or part of a Combo; flexible-filament compatibility differs from the printer’s external spool path."
+      },
+      "top_speed_mm_s": 500,
+      "speed_note": "Max speed of toolhead.",
+      "best_for": "Everyday PLA and PETG when you want more room than the A1 mini.",
+      "skill_level": "beginner",
+      "source_urls": [
+        "https://bambulab.cn/zh-cn/a1/tech-specs",
+        "https://bambulab.com/en/a1/tech-specs",
+        "https://us.store.bambulab.com/collections/3d-printer",
+        "https://blog.bambulab.com/best-3d-printer-for-beginners/",
+        "https://bambu-lab-global.myshopify.com/products/a1"
+      ],
+      "last_checked": "2026-11-07",
+      "notes": "Spec page: PLA, PETG, TPU, and PVA ideal; ABS, ASA, PC, PA, and fiber-filled filaments not recommended. US store calls the A series open-frame.",
+      "supported_materials": [
+        "PLA",
+        "PETG",
+        "TPU",
+        "PVA"
+      ],
+      "slicers": [
+        "Bambu Studio"
+      ],
+      "standout_features": [
+        "Open-frame desktop printer",
+        "Automatic calibration"
+      ],
+      "material_note": "ABS, ASA, PC, PA and fiber-filled filaments are not recommended. AMS Lite has separate filament restrictions.",
+      "image_url": "https://cdn.shopify.com/s/files/1/0651/1555/4032/files/A1C.jpg?v=1733370608",
+      "image_source_url": "https://bambu-lab-ca.myshopify.com/products/a1",
+      "description": "Open-frame printer with a 256 mm build cube and automatic calibration. Optional AMS Lite adds four filament positions for colorful models without moving to an enclosed printer."
+    },
+    {
+      "id": "bambu-p1s",
+      "brand": "Bambu Lab",
+      "model": "P1S",
+      "motion": null,
+      "price_usd": null,
+      "price_note": "Current standalone US price was not verified on 2026-11-07; check the manufacturer or an authorized retailer.",
+      "price_source_url": null,
+      "build_volume_mm": {
+        "x": 256,
+        "y": 256,
+        "z": 256
+      },
+      "build_volume_note": "Nominal manufacturer build volume.",
+      "enclosed": true,
+      "heated_chamber": null,
+      "chamber_max_c": null,
+      "max_nozzle_c": 300,
+      "max_bed_c": 100,
+      "multi_material": {
+        "system": "AMS",
+        "type": "filament changer, optional",
+        "slots": 4,
+        "max_slots": 16,
+        "note": "One original AMS provides four filament slots. Up to four original AMS units with an AMS Hub provide 16 colors; accessories are optional and not an ownership statement."
+      },
+      "top_speed_mm_s": 500,
+      "speed_note": "Maximum toolhead speed, not a guaranteed printing speed.",
+      "best_for": "Enclosed everyday printing with an optional AMS path to multicolor; material profiles and ventilation still matter.",
+      "skill_level": "intermediate",
+      "source_urls": [
+        "https://store.bblcdn.com/63ec128d3b8f4f32b7d60fe4dd112ed3.pdf",
+        "https://blog.bambulab.com/a-farewell-to-p1p/",
+        "https://blog.bambulab.com/ams/"
+      ],
+      "last_checked": "2026-11-07",
+      "notes": "Factory-reference specifications, not the owner's installed nozzle or current operating status. Manufacturer lists PLA, PETG, TPU, ABS, ASA, PVA and PET as ideal, PA and PC as capable, and carbon/glass-fiber polymers as not recommended with the stock stainless-steel nozzle. Active chamber heating is not specified in the cited technical sheet, so heated_chamber and chamber_max_c are null.",
+      "supported_materials": [
+        "PLA",
+        "PETG",
+        "TPU",
+        "ABS",
+        "ASA",
+        "PVA",
+        "PET"
+      ],
+      "slicers": [
+        "Bambu Studio"
+      ],
+      "standout_features": [
+        "Enclosed CoreXY",
+        "Optional AMS; up to 16 colors"
+      ],
+      "material_note": "PA and PC are capable materials. CF/GF filaments are not recommended with the stock stainless nozzle. TPU uses the external spool.",
+      "description": "Enclosed single-nozzle printer with a 256 mm build cube, 300°C hotend and optional AMS. Its enclosure helps with ABS and ASA; abrasive composites need suitable wear-resistant hardware."
+    },
+    {
+      "id": "bambu-p2s",
+      "brand": "Bambu Lab",
+      "model": "P2S",
+      "motion": null,
+      "price_usd": 449,
+      "price_note": "From $449 USD on the US store. Typical price shown as $549.",
+      "price_source_url": "https://us.store.bambulab.com/collections/3d-printer",
+      "build_volume_mm": {
+        "x": 256,
+        "y": 256,
+        "z": 256
+      },
+      "build_volume_note": null,
+      "enclosed": true,
+      "heated_chamber": null,
+      "chamber_max_c": null,
+      "max_nozzle_c": 300,
+      "max_bed_c": 110,
+      "multi_material": {
+        "system": "AMS",
+        "type": "filament changer, optional",
+        "slots": null,
+        "max_slots": null,
+        "note": "Spec page says filament odometry is supported with AMS. Slot count is not stated there. US store mentions a P series Combo with the AMS system."
+      },
+      "top_speed_mm_s": 600,
+      "speed_note": "Max speed of toolhead.",
+      "best_for": "An enclosed single-nozzle machine that lists ABS, ASA, PA, and PC among supported filaments.",
+      "skill_level": "intermediate",
+      "source_urls": [
+        "https://blog.bambulab.com/the-icon-redefined-meet-the-p2s-a-completely-reengineered-version-of-the-ultra-productive-p1-series/",
+        "https://bambulab.cn/zh-cn/p2s/specs",
+        "https://bambulab.com/en/p2s/specs",
+        "https://us.store.bambulab.com/collections/3d-printer"
+      ],
+      "last_checked": "2026-11-07",
+      "notes": "Spec page: outer frame plastic and glass, activated-carbon filter, door sensor. It does not list an active chamber-heater temperature, so heated_chamber is null. US store calls the P2S enclosed.",
+      "supported_materials": [
+        "PLA",
+        "PETG",
+        "TPU",
+        "ABS",
+        "ASA",
+        "PC",
+        "PA",
+        "PET",
+        "PVA",
+        "Supported CF/GF composites"
+      ],
+      "slicers": [
+        "Bambu Studio"
+      ],
+      "standout_features": [
+        "Servo extruder with clog monitoring",
+        "Adaptive airflow cooling",
+        "One-clip quick-swap hotend",
+        "5-inch touchscreen and 1080p monitoring"
+      ],
+      "material_note": "Composite grades, support materials and feed-path compatibility vary. Use the manufacturer’s filament table; a temperature rating alone does not establish compatibility.",
+      "slicer_note": "Standard G-code from other slicers may work; advanced features depend on Bambu Studio integration.",
+      "description": "Enclosed 256 mm printer with a servo extruder, adaptive airflow and one-clip hotend replacement. A 5-inch touchscreen, 1080p monitoring and automatic flow calibration distinguish it from the older P1 series."
+    },
+    {
+      "id": "bambu-x1c",
+      "brand": "Bambu Lab",
+      "model": "X1 Carbon",
+      "motion": "CoreXY",
+      "price_usd": null,
+      "price_note": "Not listed on the Bambu Lab US store collection page fetched 2026-11-07.",
+      "price_source_url": "https://us.store.bambulab.com/collections/3d-printer",
+      "build_volume_mm": {
+        "x": 256,
+        "y": 256,
+        "z": 256
+      },
+      "build_volume_note": null,
+      "enclosed": true,
+      "heated_chamber": null,
+      "chamber_max_c": null,
+      "max_nozzle_c": 300,
+      "max_bed_c": 120,
+      "multi_material": {
+        "system": "AMS",
+        "type": "optional filament changer",
+        "slots": 4,
+        "max_slots": 16,
+        "note": "Original AMS has four spool positions; four AMS units with the required hub provide up to 16 colors. TPU requires a compatible feed path."
+      },
+      "top_speed_mm_s": 500,
+      "speed_note": "Maximum toolhead travel speed: 500 mm/s; actual print speed depends on the material and profile.",
+      "best_for": "An enclosed Bambu already in use. Check that a listing is still current before you buy one.",
+      "skill_level": "intermediate",
+      "source_urls": [
+        "https://public-cdn.bambulab.com/store/bambulab-X1-carbon-tech-specs.pdf?v=20250715085516",
+        "https://public-cdn.bambulab.com/store/X1-Carbon%20tech%20specs.pdf",
+        "https://blog.bambulab.com/ams/",
+        "https://blog.bambulab.com/how-much-does-a-3d-printer-cost/"
+      ],
+      "last_checked": "2026-11-07",
+      "notes": "Hardened steel nozzle and extruder gears; Micro-LiDAR and a 1080p monitoring camera. Bed temperature depends on supply voltage.",
+      "supported_materials": [
+        "PLA",
+        "PETG",
+        "TPU",
+        "ABS",
+        "ASA",
+        "PVA",
+        "PA",
+        "PC",
+        "Carbon-fiber reinforced polymers"
+      ],
+      "slicers": [
+        "Bambu Studio"
+      ],
+      "standout_features": [
+        "Micro-LiDAR calibration",
+        "Hardened extrusion system",
+        "Enclosed CoreXY"
+      ],
+      "material_note": "Use the material-specific profile and drying requirements. AMS compatibility differs from printer compatibility.",
+      "bed_temperature_note": "120°C maximum at 110 V; 110°C maximum at 220 V.",
+      "bed_temperature_display": "120°C (110 V) / 110°C (220 V)",
+      "slicer_note": "Bambu Studio is the integrated slicer. The manufacturer also lists third-party standard G-code from SuperSlicer, PrusaSlicer and Cura, with some advanced features unavailable.",
+      "description": "Enclosed printer with Micro-LiDAR calibration, hardened extrusion hardware and a 256 mm build cube. Supports engineering and reinforced materials with suitable profiles; optional AMS adds multi-color feeding."
+    },
+    {
+      "id": "bambu-x2d",
+      "brand": "Bambu Lab",
+      "model": "X2D",
+      "motion": null,
+      "price_usd": 589,
+      "price_note": "From $589 USD on the US store, 2026-11-07. Typical price shown as $649. The April 2026 launch post listed a printer-only US price of $649 and a combo at $899.",
+      "price_source_url": "https://us.store.bambulab.com/collections/3d-printer",
+      "build_volume_mm": {
+        "x": 256,
+        "y": 256,
+        "z": 260
+      },
+      "build_volume_note": "Main nozzle 256 × 256 × 260 mm. Auxiliary nozzle and dual-nozzle intersection 235.5 × 256 × 256 mm.",
+      "enclosed": true,
+      "heated_chamber": true,
+      "chamber_max_c": 65,
+      "max_nozzle_c": 300,
+      "max_bed_c": 120,
+      "multi_material": {
+        "system": "dual nozzle",
+        "type": "second nozzle for support or a second color",
+        "slots": null,
+        "max_slots": null,
+        "note": "Launch post describes a main direct-drive nozzle and an auxiliary Bowden nozzle. AMS slot count is not in that post."
+      },
+      "top_speed_mm_s": 1000,
+      "speed_note": "Max speed of toolhead on the spec page.",
+      "best_for": "Support-heavy parts and engineering filaments in a smaller heated box.",
+      "skill_level": "intermediate",
+      "source_urls": [
+        "https://bambulab.cn/zh-cn/x2d/specs",
+        "https://bambulab.com/en-in/x2d/specs",
+        "https://blog.bambulab.com/xcellence-made-simple-bambu-lab-presents-the-x2d/"
+      ],
+      "last_checked": "2026-11-07",
+      "notes": "Nozzle, bed, speed, and build volumes are from the X2D spec page. Active chamber heating to 65 °C is from Bambu's 14 April 2026 launch post. Current price is from the US store, not the launch post.",
+      "supported_materials": [
+        "PLA",
+        "PETG",
+        "TPU",
+        "ABS",
+        "ASA",
+        "PC",
+        "PA",
+        "PET",
+        "PVA",
+        "Supported CF/GF composites"
+      ],
+      "slicers": [
+        "Bambu Studio"
+      ],
+      "standout_features": [
+        "Dual-extrusion system",
+        "65°C controlled chamber"
+      ],
+      "material_note": "Main and auxiliary nozzles have different material restrictions. Use the official compatibility table; not every main-nozzle material can use the auxiliary path.",
+      "slicer_note": "Standard G-code from other slicers may work; advanced features depend on Bambu Studio integration.",
+      "description": "Dual-extrusion printer with a 65°C controlled chamber. Its direct-drive main nozzle and auxiliary support nozzle can separate model and support materials; usable build area changes with the nozzle mode."
+    },
+    {
+      "id": "bambu-h2s",
+      "brand": "Bambu Lab",
+      "model": "H2S",
+      "motion": null,
+      "price_usd": 1049,
+      "price_note": "From $1,049 USD on the US store. Typical price shown as $1,199. Laser editions cost more.",
+      "price_source_url": "https://us.store.bambulab.com/collections/3d-printer",
+      "build_volume_mm": {
+        "x": 340,
+        "y": 320,
+        "z": 340
+      },
+      "build_volume_note": null,
+      "enclosed": true,
+      "heated_chamber": true,
+      "chamber_max_c": 65,
+      "max_nozzle_c": 350,
+      "max_bed_c": 120,
+      "multi_material": {
+        "system": "AMS",
+        "type": "filament changer, optional",
+        "slots": null,
+        "max_slots": null,
+        "note": "Spec page says filament odometry is supported with AMS. Slot count is not stated."
+      },
+      "top_speed_mm_s": 1000,
+      "speed_note": "Max speed of toolhead.",
+      "best_for": "Large single-nozzle parts in ABS, ASA, nylon, or PC.",
+      "skill_level": "advanced",
+      "source_urls": [
+        "https://bambulab.cn/zh-cn/h2s/tech-specs",
+        "https://bambulab.com/en/h2s/tech-specs",
+        "https://us.store.bambulab.com/collections/3d-printer"
+      ],
+      "last_checked": "2026-11-07",
+      "notes": "Active chamber heating to 65 °C is on the spec page. A laser edition exists; this row is the printer, not the laser tool.",
+      "supported_materials": [
+        "PLA",
+        "PETG",
+        "TPU",
+        "ABS",
+        "ASA",
+        "PC",
+        "PA",
+        "PET",
+        "PVA",
+        "Supported CF/GF composites"
+      ],
+      "slicers": [
+        "Bambu Studio"
+      ],
+      "standout_features": [
+        "Large single-nozzle build area",
+        "65°C active chamber"
+      ],
+      "material_note": "Composite grades, support materials and feed-path compatibility vary. Use the manufacturer’s filament table; a temperature rating alone does not establish compatibility.",
+      "slicer_note": "Standard G-code from other slicers may work; advanced features depend on Bambu Studio integration.",
+      "description": "Large single-nozzle printer with a 340 × 320 × 340 mm build area, 350°C hotend and 65°C actively heated chamber. Built for larger parts and temperature-demanding materials, with optional AMS feeding."
+    },
+    {
+      "id": "bambu-h2d",
+      "brand": "Bambu Lab",
+      "model": "H2D",
+      "motion": null,
+      "price_usd": 1399,
+      "price_note": "From $1,399 USD on the US store. Typical price shown as $1,549.",
+      "price_source_url": "https://us.store.bambulab.com/collections/3d-printer",
+      "build_volume_mm": {
+        "x": 325,
+        "y": 320,
+        "z": 325
+      },
+      "build_volume_note": "Single nozzle 325 × 320 × 325 mm. Dual nozzle 300 × 320 × 320 mm. Total volume for two nozzles 350 × 320 × 320 mm.",
+      "enclosed": true,
+      "heated_chamber": true,
+      "chamber_max_c": 65,
+      "max_nozzle_c": 350,
+      "max_bed_c": 120,
+      "multi_material": {
+        "system": "dual nozzle",
+        "type": "two nozzles",
+        "slots": null,
+        "max_slots": null,
+        "note": "Spec page lists single-nozzle and dual-nozzle volumes and says filament odometry is supported with AMS. AMS slot count is not stated."
+      },
+      "top_speed_mm_s": 1000,
+      "speed_note": "Max speed of toolhead.",
+      "best_for": "Large parts that need a second nozzle for support material or a second color.",
+      "skill_level": "advanced",
+      "source_urls": [
+        "https://bambulab.cn/zh-cn/h2d/tech-specs",
+        "https://bambulab.com/en/h2d/tech-specs",
+        "https://us.store.bambulab.com/collections/3d-printer"
+      ],
+      "last_checked": "2026-11-07",
+      "notes": "Active chamber heating to 65 °C is on the spec page. Laser and cutting modules are optional editions, not part of this row's price.",
+      "supported_materials": [
+        "PLA",
+        "PETG",
+        "TPU",
+        "ABS",
+        "ASA",
+        "PC",
+        "PA",
+        "PET",
+        "PVA",
+        "Supported CF/GF composites"
+      ],
+      "slicers": [
+        "Bambu Studio"
+      ],
+      "standout_features": [
+        "Dual-nozzle printing",
+        "65°C active chamber"
+      ],
+      "material_note": "Composite grades, support materials and feed-path compatibility vary. Use the manufacturer’s filament table; a temperature rating alone does not establish compatibility.",
+      "slicer_note": "Standard G-code from other slicers may work; advanced features depend on Bambu Studio integration.",
+      "description": "Dual-nozzle printer with a 350°C hotend limit and 65°C active chamber. Two nozzles support different materials or dedicated supports; single- and dual-nozzle modes have different usable volumes."
+    },
+    {
+      "id": "bambu-h2c",
+      "brand": "Bambu Lab",
+      "model": "H2C",
+      "motion": null,
+      "price_usd": 1899,
+      "price_note": "From $1,899 USD on the US store. Typical price shown as $2,199.",
+      "price_source_url": "https://us.store.bambulab.com/collections/3d-printer",
+      "build_volume_mm": {
+        "x": 305,
+        "y": 320,
+        "z": 325
+      },
+      "build_volume_note": "305 × 320 × 325 mm is the right-nozzle reference volume. The left nozzle and dual-nozzle modes have different reach. The CN spec lists the left volume as 325 × 320 × 320 mm and dual overlap as 300 × 320 × 320 mm; the launch blog gives 325 mm Z for dual mode. Select the exact nozzle/profile in the slicer.",
+      "enclosed": true,
+      "heated_chamber": true,
+      "chamber_max_c": 65,
+      "max_nozzle_c": 350,
+      "max_bed_c": 120,
+      "multi_material": {
+        "system": "Vortek + AMS",
+        "type": "hotend-changing dual-extrusion system",
+        "slots": 7,
+        "max_slots": 24,
+        "note": "Six swappable right-side hotends plus a fixed left hotend. Up to 24 filaments with compatible AMS units and accessories; included hotends depend on the purchased bundle."
+      },
+      "top_speed_mm_s": 1000,
+      "speed_note": "Max speed of toolhead on the spec page.",
+      "best_for": "Multi-material prints where swapping hotends wastes less filament than purging one nozzle.",
+      "skill_level": "advanced",
+      "source_urls": [
+        "https://blog.bambulab.com/bambu-lab-h2c-where-multi-material-vortek-system-meets-engineering-precision/",
+        "https://bambulab.cn/zh-cn/h2c/specs",
+        "https://bambulab.com/en-us/h2c/specs",
+        "https://us.store.bambulab.com/products/h2c"
+      ],
+      "last_checked": "2026-11-07",
+      "notes": "Vortek changes hotends on the right tool position; the left hotend remains fixed. Six interchangeable right-side hotends plus the fixed left hotend support seven assigned materials before additional AMS configurations.",
+      "supported_materials": [
+        "PLA",
+        "PETG",
+        "TPU",
+        "ABS",
+        "ASA",
+        "PC",
+        "PA",
+        "PET",
+        "PVA",
+        "Supported CF/GF composites"
+      ],
+      "slicers": [
+        "Bambu Studio"
+      ],
+      "standout_features": [
+        "Six interchangeable Vortek hotends plus fixed left hotend",
+        "Up to 24 filaments with compatible AMS configuration",
+        "65°C active chamber"
+      ],
+      "material_note": "Composite grades, support materials and feed-path compatibility vary. Use the manufacturer’s filament table; a temperature rating alone does not establish compatibility.",
+      "slicer_note": "Standard G-code from other slicers may work; advanced features depend on Bambu Studio integration.",
+      "description": "Multi-material printer using the Vortek hotend-changing system and a fixed left hotend. Assigning materials to separate hotends reduces purging; additional AMS hardware expands the available filament count."
+    },
+    {
+      "id": "bambu-h3c",
+      "brand": "Bambu Lab",
+      "model": "H3C",
+      "motion": null,
+      "price_usd": 2499,
+      "price_note": "From $2,499 USD on the US store. No separate typical price was shown on the collection page.",
+      "price_source_url": "https://us.store.bambulab.com/collections/3d-printer",
+      "build_volume_mm": {
+        "x": 330,
+        "y": 320,
+        "z": 325
+      },
+      "build_volume_note": "Spec page lists build volume as 330 × 320 × 325 mm.",
+      "enclosed": true,
+      "heated_chamber": true,
+      "chamber_max_c": 65,
+      "max_nozzle_c": 350,
+      "max_bed_c": 120,
+      "multi_material": {
+        "system": "SwapTek with AMS 3H",
+        "type": "tool changer",
+        "slots": 9,
+        "max_slots": 24,
+        "note": "Nine tools; up to 24 materials with additional compatible AMS units through Tool 1. FlexFeed supports soft TPU via its dedicated path."
+      },
+      "top_speed_mm_s": 1400,
+      "speed_note": "Max speed of toolhead.",
+      "best_for": "Many colors or materials on large parts, if the budget stretches this far.",
+      "skill_level": "advanced",
+      "source_urls": [
+        "https://bambulab.cn/zh-cn/h3c/specs",
+        "https://bambulab.com/en/h3c/specs",
+        "https://us.store.bambulab.com/collections/3d-printer",
+        "https://blog.bambulab.com/tool-changer-game-changer-bambu-lab-presents-h3c-the-defining-new-generation-of-3d-printers/"
+      ],
+      "last_checked": "2026-11-07",
+      "notes": "Enclosure type Enclosed and active chamber heating to 65 °C are on the spec page.",
+      "supported_materials": [
+        "PLA",
+        "PETG",
+        "TPU",
+        "ABS",
+        "ASA",
+        "PC",
+        "PA",
+        "PET",
+        "PVA",
+        "Supported CF/GF composites"
+      ],
+      "slicers": [
+        "Bambu Studio"
+      ],
+      "standout_features": [
+        "Nine-tool Swaptek changer",
+        "65°C active chamber",
+        "FlexFeed for soft TPU"
+      ],
+      "material_note": "Composite grades, support materials and feed-path compatibility vary. Use the manufacturer’s filament table; a temperature rating alone does not establish compatibility.",
+      "slicer_note": "Standard G-code from other slicers may work; advanced features depend on Bambu Studio integration.",
+      "image_url": "https://storage.ghost.io/c/8d/d9/8dd9f85b-21c3-4782-bba8-8778cd8f2f93/content/images/size/w1200/2026/10/BBL-H3C-001-2.jpg",
+      "image_source_url": "https://bambulab.cn/zh-cn/h3c/specs",
+      "description": "Nine-tool Swaptek printer with a 65°C active chamber and a 330 × 320 × 325 mm build area. Separate tools handle multiple materials, while its dedicated FlexFeed path supports soft flexible filament."
+    },
+    {
+      "id": "creality-hi",
+      "brand": "Creality",
+      "model": "Hi",
+      "motion": null,
+      "price_usd": 299,
+      "price_note": "Manufacturer US listing: $299 printer only; $399 Combo with CFS. Both listed as sold out; verify availability.",
+      "price_source_url": "https://store.creality.com/products/creality-hi-combo-3d-printer",
+      "build_volume_mm": {
+        "x": 260,
+        "y": 260,
+        "z": 300
+      },
+      "build_volume_note": null,
+      "enclosed": false,
+      "heated_chamber": false,
+      "chamber_max_c": null,
+      "max_nozzle_c": 300,
+      "max_bed_c": 100,
+      "multi_material": {
+        "system": "CFS",
+        "type": "filament changer",
+        "slots": 4,
+        "max_slots": 16,
+        "note": "One CFS holds 4 spools. Up to 4 CFS units, 16 filaments. Two or more CFS units need a separate power source. Page says not compatible with TPU, damp BVOH/PVA, or warped cardboard spools."
+      },
+      "top_speed_mm_s": 500,
+      "speed_note": "Max speed 500 mm/s. Creality also states a typical speed of 300 mm/s.",
+      "best_for": "Taller multicolor PLA and PETG without buying a second machine for color.",
+      "skill_level": "beginner",
+      "source_urls": [
+        "https://www.creality.com/products/creality-hi-combo",
+        "https://store.creality.com/products/creality-hi-combo-3d-printer"
+      ],
+      "last_checked": "2026-11-07",
+      "notes": "Nozzle ≤ 300 °C and heatbed ≤ 100 °C. The page does not say whether the frame is enclosed, so enclosed and heated_chamber are null. Supported printer filaments listed: Hyper-PLA, PLA, PETG, ABS, PLA-CF.",
+      "supported_materials": [
+        "PLA",
+        "PETG",
+        "ABS",
+        "PLA-CF"
+      ],
+      "slicers": [
+        "Creality Print 5.1+"
+      ],
+      "standout_features": [
+        "Automatic bed leveling",
+        "Optional CFS multi-color"
+      ],
+      "print_speed_mm_s": 300,
+      "material_note": "Printer and CFS compatibility differ; flexible filaments are not supported by CFS.",
+      "description": "Open-frame printer with a 260 × 260 × 300 mm build area and automatic bed leveling. Optional CFS adds multi-color printing; its shared-nozzle material changes differ from a multi-tool printer."
+    },
+    {
+      "id": "creality-k1c",
+      "brand": "Creality",
+      "model": "K1C",
+      "motion": "corexy",
+      "price_usd": null,
+      "price_note": "Creality's K1 compare page shows both $529 and $559. The checkout price was not explicit in the extract, so price_usd is null.",
+      "price_source_url": "https://www.creality.com/compare/compare-k1-flagship-series",
+      "build_volume_mm": {
+        "x": 220,
+        "y": 220,
+        "z": 250
+      },
+      "build_volume_note": null,
+      "enclosed": true,
+      "heated_chamber": null,
+      "chamber_max_c": null,
+      "max_nozzle_c": 300,
+      "max_bed_c": 100,
+      "multi_material": {
+        "system": null,
+        "type": null,
+        "slots": null,
+        "max_slots": null,
+        "note": null
+      },
+      "top_speed_mm_s": 600,
+      "speed_note": "Compare page: max 600 mm/s. It also lists a typical speed of 300 mm/s.",
+      "best_for": "A compact CoreXY for PLA, PETG, TPU, and the fiber filaments Creality lists for the K1C.",
+      "skill_level": "intermediate",
+      "source_urls": [
+        "https://www.creality.com/compare/compare-k1-flagship-series",
+        "https://www.creality.com/support/k1c-carbon-3d-printer"
+      ],
+      "last_checked": "2026-11-07",
+      "notes": "Build volume, CoreXY, and the two prices are from the compare page. Nozzle 300 °C, heatbed 100 °C, and 600 mm/s are also on the K1C support page. Enclosure and a multi-material system were not stated on those pages.",
+      "supported_materials": [
+        "PLA",
+        "PETG",
+        "TPU",
+        "Carbon-fiber filaments"
+      ],
+      "slicers": [
+        "Creality Print"
+      ],
+      "standout_features": [
+        "Enclosed CoreXY",
+        "Hardened nozzle",
+        "AI camera"
+      ],
+      "material_note": "Use grade-specific profiles and dry reinforced filament; feed-path restrictions apply.",
+      "description": "Compact enclosed CoreXY printer with a 220 × 220 × 250 mm build area, hardened nozzle and monitoring camera. Supports carbon-fiber filaments within its temperature and material-profile limits."
+    },
+    {
+      "id": "creality-k2-plus",
+      "brand": "Creality",
+      "model": "K2 Plus",
+      "motion": "CoreXY",
+      "price_usd": 999,
+      "price_note": "Creality store collection shows $999 and $1,299 for the K2 Plus. The Combo is listed separately at $1,199 and $1,499. price_usd is the lower printer-only figure.",
+      "price_source_url": "https://store.creality.com/collections/master-your-craft",
+      "build_volume_mm": {
+        "x": 350,
+        "y": 350,
+        "z": 350
+      },
+      "build_volume_note": null,
+      "enclosed": true,
+      "heated_chamber": true,
+      "chamber_max_c": 60,
+      "max_nozzle_c": 350,
+      "max_bed_c": 120,
+      "multi_material": {
+        "system": "CFS",
+        "type": "filament changer, optional",
+        "slots": 4,
+        "max_slots": 16,
+        "note": "Creality's K2 series buying guide says 4 CFS units deliver up to 16 colors. It does not say the CFS is included in the printer-only price."
+      },
+      "top_speed_mm_s": 600,
+      "speed_note": "FAQ: 600 mm/s max speed and 30,000 mm/s² max acceleration.",
+      "best_for": "The largest build volume in this table, plus a heated chamber for engineering filaments.",
+      "skill_level": "advanced",
+      "source_urls": [
+        "https://www.creality.com/support/creality-k2-plus-cfs-combo",
+        "https://www.creality.com/ae/products/creality-k2-plus-cfs-combo",
+        "https://store.creality.com/blogs/all/creality-k2-plus-cfs-faqs",
+        "https://www.creality.com/campaigns/k2-series-buying-guide",
+        "https://store.creality.com/collections/master-your-craft"
+      ],
+      "last_checked": "2026-11-07",
+      "notes": "Volume, speeds, nozzle 350 °C, bed 120 °C, and chamber 60 °C are from Creality's K2 Plus FAQ. Active chamber heating is why enclosed is true. The buying guide's frame row was internally inconsistent in the extract, so motion is null.",
+      "supported_materials": [
+        "PLA",
+        "ABS",
+        "PETG",
+        "PA-CF",
+        "PLA-CF",
+        "PET",
+        "ASA",
+        "PPA-CF"
+      ],
+      "slicers": [
+        "Creality Print 5.0+"
+      ],
+      "standout_features": [
+        "350 mm build cube",
+        "60°C active chamber",
+        "Optional CFS"
+      ],
+      "nozzle_type": "Hardened steel, 0.4 mm included",
+      "description": "Large CoreXY printer with a 350 mm build cube, 350°C nozzle and 60°C actively heated chamber. Optional CFS adds up to 16 filament channels for larger multi-color or engineering-material projects."
+    },
+    {
+      "id": "snapmaker-u1",
+      "brand": "Snapmaker",
+      "model": "U1",
+      "motion": "CoreXY",
+      "price_usd": null,
+      "price_note": "The spec page fetched 2026-11-07 did not show a USD price.",
+      "price_source_url": null,
+      "build_volume_mm": {
+        "x": 270,
+        "y": 270,
+        "z": 270
+      },
+      "build_volume_note": null,
+      "enclosed": false,
+      "heated_chamber": false,
+      "chamber_max_c": null,
+      "max_nozzle_c": 300,
+      "max_bed_c": 100,
+      "multi_material": {
+        "system": "four toolheads",
+        "type": "tool changer",
+        "slots": 4,
+        "max_slots": 4,
+        "note": "Spec page: 4 toolheads included. Stock nozzle is stainless steel."
+      },
+      "top_speed_mm_s": 500,
+      "speed_note": "Max toolhead speed.",
+      "best_for": "Four-color or four-material prints with less purge than a single-nozzle changer.",
+      "skill_level": "intermediate",
+      "source_urls": [
+        "https://us.snapmaker.com/products/snapmaker-u1-3d-printer",
+        "https://www.snapmaker.com/en/snapmaker-u1/specs"
+      ],
+      "last_checked": "2026-11-07",
+      "notes": "ABS, ASA, PA, and PC are listed only with the optional top cover. Carbon-fiber filament also needs that cover and a hardened steel nozzle. No active chamber heater is stated, so heated_chamber is false and enclosed is false for the base machine.",
+      "supported_materials": [
+        "PLA",
+        "PETG",
+        "TPU",
+        "PVA",
+        "PCTG"
+      ],
+      "slicers": [
+        "Snapmaker Orca",
+        "OrcaSlicer"
+      ],
+      "standout_features": [
+        "Four independent toolheads",
+        "Low-purge material changes"
+      ],
+      "conditional_materials": [
+        {
+          "materials": [
+            "PET",
+            "ABS",
+            "ASA",
+            "PA",
+            "PC"
+          ],
+          "requires": "Optional top cover"
+        },
+        {
+          "materials": [
+            "CF/GF composites"
+          ],
+          "requires": "Top cover and hardened nozzle"
+        }
+      ],
+      "description": "CoreXY printer with four independent toolheads and a 270 mm build cube. Direct tool swaps reduce shared-nozzle purging; an optional top cover and hardened nozzles expand engineering-material support."
+    },
+    {
+      "id": "snapmaker-j1s",
+      "brand": "Snapmaker",
+      "model": "J1s",
+      "motion": "idex",
+      "price_usd": 1399,
+      "price_note": "Manufacturer comparison lists $1,399 MSRP. This is a reference MSRP, not a live checkout quote.",
+      "price_source_url": "https://us.snapmaker.com/pages/snapmaker-3d-printer",
+      "build_volume_mm": {
+        "x": 300,
+        "y": 200,
+        "z": 200
+      },
+      "build_volume_note": "Default / backup: 300 × 200 × 200 mm. Copy: 160 × 200 × 200 mm per copy; mirror: 150 × 200 × 200 mm per side.",
+      "enclosed": true,
+      "heated_chamber": null,
+      "chamber_max_c": null,
+      "max_nozzle_c": 300,
+      "max_bed_c": 100,
+      "multi_material": {
+        "system": "IDEX",
+        "type": "independent dual extruders",
+        "slots": 2,
+        "max_slots": 2,
+        "note": "Modes listed: default, backup, copy, and mirror."
+      },
+      "top_speed_mm_s": 350,
+      "speed_note": "Manufacturer maximum printing speed: 350 mm/s; quality and material profiles may use lower speeds.",
+      "best_for": "Two-material parts, or copy and mirror mode, on a wide but short bed.",
+      "skill_level": "intermediate",
+      "source_urls": [
+        "https://www.snapmaker.com/en-US/j1s-idex-3d-printer/",
+        "https://www.snapmaker.com/en-US/j1s-idex-3d-printer/specs/",
+        "https://us.snapmaker.com/pages/snapmaker-3d-printer"
+      ],
+      "last_checked": "2026-11-07",
+      "notes": "Page says independent dual extruders. Supported materials include PLA, ABS, PC, TPU above 90A, PETG, ASA, PA, PA-GF, and PA-CF. Hardened nozzle for PA and fiber fills. Enclosure and top speed were not stated.",
+      "supported_materials": [
+        "PLA",
+        "ABS",
+        "HIPS",
+        "PC",
+        "TPU (>90A)",
+        "TPE",
+        "PETG",
+        "ASA",
+        "PP",
+        "PVA",
+        "PA"
+      ],
+      "slicers": [
+        "Snapmaker Luban",
+        "OrcaSlicer"
+      ],
+      "standout_features": [
+        "Independent dual extrusion",
+        "Copy and mirror modes"
+      ],
+      "material_note": "PA-CF and PA-GF require a hardened nozzle.",
+      "description": "Independent dual-extrusion printer with copy, mirror, backup and two-material modes. Two moving extruders can duplicate parts or separate model and support materials; available width depends on the mode."
+    },
+    {
+      "id": "snapmaker-artisan",
+      "brand": "Snapmaker",
+      "model": "Artisan",
+      "motion": "Cartesian linear modules",
+      "price_usd": 2999,
+      "price_note": "Manufacturer comparison lists $2,999 MSRP for the 3-in-1 configuration. Module bundles and current checkout pricing may differ.",
+      "price_source_url": "https://us.snapmaker.com/pages/snapmaker-3d-printer",
+      "build_volume_mm": {
+        "x": 350,
+        "y": 400,
+        "z": 400
+      },
+      "build_volume_note": "Dual nozzle 350 × 400 × 400 mm. Left nozzle 375 × 400 × 400 mm. Right nozzle 400 × 400 × 400 mm.",
+      "enclosed": true,
+      "heated_chamber": null,
+      "chamber_max_c": null,
+      "max_nozzle_c": 300,
+      "max_bed_c": 110,
+      "multi_material": {
+        "system": "dual nozzle",
+        "type": "two nozzles",
+        "slots": 2,
+        "max_slots": 2,
+        "note": "Work area is listed separately for dual nozzle, left nozzle, and right nozzle."
+      },
+      "top_speed_mm_s": 300,
+      "speed_note": "Manufacturer comparison lists 300 mm/s maximum printing speed; the detailed Artisan specification lists 180 mm/s as its recommended printing speed.",
+      "best_for": "Very large dual-nozzle prints on a machine that also lists laser and CNC tools.",
+      "skill_level": "advanced",
+      "source_urls": [
+        "https://us.snapmaker.com/pages/snapmaker-3d-printer",
+        "https://www.snapmaker.com/en-US/snapmaker-artisan/specs"
+      ],
+      "last_checked": "2026-11-07",
+      "notes": "The fetched spec page lists a dual-nozzle work area and separate machine-and-enclosure dimensions, but it did not state nozzle temperature, bed temperature, chamber heat, or a print-speed limit. Those fields are null.",
+      "supported_materials": [
+        "PLA",
+        "ABS",
+        "ASA",
+        "PETG",
+        "TPU (≥90A)",
+        "Breakaway PLA",
+        "PVA",
+        "HIPS",
+        "Nylon"
+      ],
+      "slicers": [
+        "Snapmaker Luban",
+        "OrcaSlicer"
+      ],
+      "standout_features": [
+        "Dual extrusion",
+        "3-in-1 platform: printing, laser and CNC modules"
+      ],
+      "bed_temperature_note": "Inner 260 × 260 mm zone: 110°C; outer area: 80°C.",
+      "print_speed_mm_s": 180,
+      "material_note": "Reinforced nylon requires the appropriate wear-resistant nozzle. Laser/CNC capabilities depend on the purchased modules.",
+      "image_url": "https://ditfjx9w4x3vl.cloudfront.net/assets/artisan/artisan-subscribe-compressed.jpg",
+      "image_source_url": "https://www.snapmaker.com/en-US/snapmaker-artisan",
+      "description": "Modular platform combining dual-extrusion printing with optional or bundled laser and CNC tools. Its 350 × 400 × 400 mm dual-nozzle work area and quick-change modules suit projects spanning several fabrication methods."
+    },
+    {
+      "id": "flashforge-ad5x",
+      "brand": "Flashforge",
+      "model": "AD5X",
+      "motion": "corexy",
+      "price_usd": 349,
+      "price_note": "Sale price $349 USD. Regular price shown as $499.",
+      "price_source_url": "https://www.flashforge.com/products/flashforge-ad5x-3d-printer",
+      "build_volume_mm": {
+        "x": 220,
+        "y": 220,
+        "z": 220
+      },
+      "build_volume_note": null,
+      "enclosed": false,
+      "heated_chamber": false,
+      "chamber_max_c": null,
+      "max_nozzle_c": 300,
+      "max_bed_c": 110,
+      "multi_material": {
+        "system": "IFS",
+        "type": "filament changer, built in",
+        "slots": 4,
+        "max_slots": 4,
+        "note": "Page says the Intelligent Filament System is standard, 4 colors, one extruder. No external feeder box."
+      },
+      "top_speed_mm_s": 600,
+      "speed_note": "Page states max speed 600 mm/s and max print speed 300 mm/s. Travel speed is also listed as max 600 mm/s.",
+      "best_for": "A first multicolor printer with four filaments already in the machine.",
+      "skill_level": "beginner",
+      "source_urls": [
+        "https://www.flashforge.com/products/flashforge-ad5x-3d-printer"
+      ],
+      "last_checked": "2026-11-07",
+      "notes": "CoreXY is stated. Recommended filaments include PETG, PLA, TPU 95A for single color, TPU 64D–75D, PLA-CF, and PETG-CF. The page does not say the machine is enclosed.",
+      "supported_materials": [
+        "PLA",
+        "PETG",
+        "TPU 95A",
+        "TPU 64D–75D",
+        "PLA-CF",
+        "PETG-CF"
+      ],
+      "slicers": [
+        "Orca-Flashforge",
+        "OrcaSlicer"
+      ],
+      "standout_features": [
+        "Four-color IFS",
+        "Quick-release nozzle"
+      ],
+      "print_speed_mm_s": 300,
+      "material_note": "TPU 95A is single-color only.",
+      "image_url": "https://www.flashforge.com/cdn/shop/files/20260509-093938.png?v=1778291961&width=1200",
+      "image_source_url": "https://www.flashforge.com/products/flashforge-ad5x-3d-printer",
+      "description": "Open-frame CoreXY printer with four-color IFS feeding and a 220 mm build cube. Four filament channels share one extruder; the quick-release nozzle and automatic loading simplify material changes."
+    },
+    {
+      "id": "flashforge-creator-5-pro",
+      "brand": "Flashforge",
+      "model": "Creator 5 Pro",
+      "motion": "CoreXY",
+      "price_usd": null,
+      "price_note": "The product page fetched 2026-11-07 did not show a USD price.",
+      "price_source_url": "https://enterprise.flashforge.com/pages/flashforge-creator-5-pro-4-toolhead-multi-color-3d-printer",
+      "build_volume_mm": {
+        "x": 256,
+        "y": 256,
+        "z": 256
+      },
+      "build_volume_note": null,
+      "enclosed": true,
+      "heated_chamber": true,
+      "chamber_max_c": 65,
+      "max_nozzle_c": 320,
+      "max_bed_c": 120,
+      "multi_material": {
+        "system": "four toolheads",
+        "type": "tool changer",
+        "slots": 4,
+        "max_slots": 4,
+        "note": "4 independent toolheads. Structure listed as enclosed frame. Active chamber heating max 65 °C."
+      },
+      "top_speed_mm_s": 600,
+      "speed_note": "Max travel speed 600 mm/s. Max print speed stated as 300 mm/s.",
+      "best_for": "Four materials in a heated enclosure, including the support and nylon blends Flashforge lists.",
+      "skill_level": "advanced",
+      "source_urls": [
+        "https://wiki.flashforge.com/en/creator-series/creator-5-series/manual/intro-creator-5",
+        "https://enterprise.flashforge.com/pages/flashforge-creator-5-pro-4-toolhead-multi-color-3d-printer"
+      ],
+      "last_checked": "2026-11-07",
+      "notes": "HEPA13 plus activated carbon. TPU 90A is listed for the top external mount. Recommended filaments include ABS, ASA, PA-CF, and PPS-CF.",
+      "supported_materials": [
+        "PLA",
+        "PETG",
+        "TPU",
+        "PVA",
+        "BVOH",
+        "ABS",
+        "ASA",
+        "PA-CF",
+        "PET-CF",
+        "PAHT-CF",
+        "PPA-CF",
+        "PPS-CF",
+        "HIPS"
+      ],
+      "slicers": [
+        "FlashStudio",
+        "OrcaSlicer"
+      ],
+      "standout_features": [
+        "Four independent toolheads",
+        "65°C active chamber",
+        "HEPA H13 filtration"
+      ],
+      "print_speed_mm_s": 300,
+      "material_note": "TPU 90A uses the top external mount. Use material-specific profiles and feed paths.",
+      "description": "Enclosed CoreXY printer with four independent toolheads, a 65°C active chamber and HEPA H13 filtration. Separate tools support multi-material parts and dedicated support materials without routing every filament through one nozzle."
+    },
+    {
+      "id": "prusa-core-one-plus",
+      "brand": "Prusa",
+      "model": "CORE One+",
+      "motion": "corexy",
+      "price_usd": 1299,
+      "price_note": "Assembled from $1,299 on the Prusa comparison table. Kit price was not taken from that same row.",
+      "price_source_url": "https://www.prusa3d.com/product/prusa-core-one/",
+      "build_volume_mm": {
+        "x": 250,
+        "y": 220,
+        "z": 270
+      },
+      "build_volume_note": null,
+      "enclosed": true,
+      "heated_chamber": true,
+      "chamber_max_c": 55,
+      "max_nozzle_c": 290,
+      "max_bed_c": 120,
+      "multi_material": {
+        "system": "MMU3",
+        "type": "filament changer, optional",
+        "slots": 5,
+        "max_slots": 5,
+        "note": "Optional MMU3 selects up to five filaments through the single nozzle. Additional upgrades and enclosure options depend on the printer configuration."
+      },
+      "top_speed_mm_s": null,
+      "speed_note": "A single maximum linear print speed is not listed in the cited product specification. Use the PrusaSlicer material and quality preset; model print times are more useful for comparison.",
+      "best_for": "An enclosed Prusa you can buy assembled or as a kit, with published chamber heating.",
+      "skill_level": "intermediate",
+      "source_urls": [
+        "https://www.prusa3d.com/product/prusa-core-one/",
+        "https://www.prusa3d.com/product/original-prusa-mk4s-3d-printer/",
+        "https://blog.prusa3d.com/development-diary-update-on-mmu3-for-the-mk4_85043/"
+      ],
+      "last_checked": "2026-11-07",
+      "notes": "The CORE One+ vs MK4S table on Prusa's site lists CoreXY, enclosed chamber, active heating up to 55 °C, and nozzle 290 °C or 400 °C with the HT hotend. Bed 120 °C is the CORE One column on the MK4S product comparison. This row is the stock 290 °C hotend.",
+      "supported_materials": [
+        "PLA",
+        "PETG",
+        "Flex",
+        "PVA",
+        "PC",
+        "PP",
+        "CPE",
+        "PVB"
+      ],
+      "slicers": [
+        "PrusaSlicer"
+      ],
+      "standout_features": [
+        "Open-source ecosystem",
+        "Upgradeable platform",
+        "Controlled enclosed chamber"
+      ],
+      "material_note": "ABS, ASA, HIPS and PA need suitable enclosure/filtration; MK4S enclosure is optional. Abrasive grades need an appropriate nozzle.",
+      "description": "Enclosed CoreXY printer with a 250 × 220 × 270 mm build area and chamber temperature control up to 55°C. Available assembled or as a kit, with PrusaSlicer integration and optional multi-material upgrades."
+    },
+    {
+      "id": "prusa-mk4s",
+      "brand": "Prusa",
+      "model": "MK4S",
+      "motion": "cartesian",
+      "price_usd": 999,
+      "price_note": "Assembled from $999 on Prusa's CORE One+ comparison. A kit price of $729 appeared on a separate MMU3-bundle page and is not the price_usd.",
+      "price_source_url": "https://www.prusa3d.com/product/prusa-core-one/",
+      "build_volume_mm": {
+        "x": 250,
+        "y": 210,
+        "z": 220
+      },
+      "build_volume_note": null,
+      "enclosed": false,
+      "heated_chamber": false,
+      "chamber_max_c": null,
+      "max_nozzle_c": 290,
+      "max_bed_c": 120,
+      "multi_material": {
+        "system": "MMU3",
+        "type": "filament changer, optional",
+        "slots": 5,
+        "max_slots": 5,
+        "note": "Optional MMU3 selects up to five filaments through the single nozzle. Additional upgrades and enclosure options depend on the printer configuration."
+      },
+      "top_speed_mm_s": null,
+      "speed_note": "A single maximum linear print speed is not listed in the cited product specification. Use the PrusaSlicer material and quality preset; model print times are more useful for comparison.",
+      "best_for": "A repairable open-frame printer with automatic first-layer calibration, if you mostly print PLA and PETG.",
+      "skill_level": "beginner",
+      "source_urls": [
+        "https://www.prusa3d.com/product/original-prusa-mk4s-3d-printer/",
+        "https://www.prusa3d.com/product/prusa-core-one/",
+        "https://blog.prusa3d.com/development-diary-update-on-mmu3-for-the-mk4_85043/"
+      ],
+      "last_checked": "2026-11-07",
+      "notes": "MK4S product page: build volume 250 × 210 × 220 mm, nozzle 290 °C, heatbed 120 °C, Cartesian is the kinematics label on Prusa's comparison. ABS and ASA are listed when using the optional enclosure. ",
+      "supported_materials": [
+        "PLA",
+        "PETG",
+        "Flex",
+        "PVA",
+        "PC",
+        "PP",
+        "CPE",
+        "PVB"
+      ],
+      "slicers": [
+        "PrusaSlicer"
+      ],
+      "standout_features": [
+        "Open-source ecosystem",
+        "Upgradeable platform",
+        "High-flow nozzle"
+      ],
+      "material_note": "ABS, ASA, HIPS and PA need suitable enclosure/filtration; MK4S enclosure is optional. Abrasive grades need an appropriate nozzle.",
+      "description": "Open-frame Cartesian printer with automatic first-layer calibration and a high-flow nozzle. Optional MMU3 adds five-filament selection, while an optional enclosure broadens its suitability for warp-prone materials."
+    },
+    {
+      "id": "elegoo-centauri-carbon",
+      "brand": "Elegoo",
+      "model": "Centauri Carbon",
+      "motion": "corexy",
+      "price_usd": 438.41,
+      "price_note": "The product page showed $438.41 USD at fetch time. That is not a round list price, so confirm it at checkout.",
+      "price_source_url": "https://www.elegoo.com/products/centauri-carbon",
+      "build_volume_mm": {
+        "x": 256,
+        "y": 256,
+        "z": 256
+      },
+      "build_volume_note": null,
+      "enclosed": true,
+      "heated_chamber": null,
+      "chamber_max_c": null,
+      "max_nozzle_c": 320,
+      "max_bed_c": 110,
+      "multi_material": {
+        "system": null,
+        "type": null,
+        "slots": null,
+        "max_slots": null,
+        "note": null
+      },
+      "top_speed_mm_s": 500,
+      "speed_note": "Up to 500 mm/s and 20,000 mm/s².",
+      "best_for": "An enclosed CoreXY with a hardened nozzle if you want to try fiber-filled filament.",
+      "skill_level": "intermediate",
+      "source_urls": [
+        "https://elegoo-downloads.oss-us-west-1.aliyuncs.com/tutorials/Centauri%20Carbon/Accompanying/Centauri%20Carbon%20User%20Manual-EN-V1.2.pdf",
+        "https://www.elegoo.com/products/centauri-carbon"
+      ],
+      "last_checked": "2026-11-07",
+      "notes": "The manufacturer’s user manual specifies a 110°C maximum heated bed. Enclosed chamber with a 320°C hardened nozzle, automatic calibration and a monitoring camera.",
+      "supported_materials": [
+        "PLA",
+        "PETG",
+        "TPU",
+        "ABS",
+        "ASA",
+        "PLA-CF"
+      ],
+      "slicers": [
+        "ELEGOO Slicer",
+        "OrcaSlicer"
+      ],
+      "standout_features": [
+        "110°C heated bed and 320°C hardened nozzle",
+        "Automatic calibration",
+        "Built-in chamber camera"
+      ],
+      "material_note": "Use manufacturer profiles and grade-specific drying requirements.",
+      "description": "Enclosed CoreXY printer with a 256 mm build cube, a 320°C hardened nozzle and a 110°C heated bed. Automatic calibration and a chamber camera support everyday and reinforced-filament printing."
+    },
+    {
+      "id": "anycubic-kobra-s1",
+      "brand": "Anycubic",
+      "model": "Kobra S1",
+      "motion": "corexy",
+      "price_usd": 349,
+      "price_note": "Sale price $349 USD. Regular price shown as $549.",
+      "price_source_url": "https://store.anycubic.com/products/kobra-s1",
+      "build_volume_mm": {
+        "x": 250,
+        "y": 250,
+        "z": 250
+      },
+      "build_volume_note": null,
+      "enclosed": true,
+      "heated_chamber": null,
+      "chamber_max_c": null,
+      "max_nozzle_c": 320,
+      "max_bed_c": 120,
+      "multi_material": {
+        "system": "ACE Pro",
+        "type": "optional filament changer with drying",
+        "slots": 4,
+        "max_slots": 8,
+        "note": "One compatible ACE Pro supplies four colors; two units and the eight-color feeding module supply up to eight. Select the ACE Pro version for Kobra S1. TPU 95A is not supported through ACE Pro."
+      },
+      "top_speed_mm_s": 600,
+      "speed_note": "Maximum 600 mm/s. Recommended 300 mm/s.",
+      "best_for": "An enclosed CoreXY around the same price as a basic multicolor machine, if you do not need color yet.",
+      "skill_level": "beginner",
+      "source_urls": [
+        "https://store.anycubic.com/products/kobra-s1-combo",
+        "https://store.anycubic.com/products/kobra-s1"
+      ],
+      "last_checked": "2026-11-07",
+      "notes": "Page says fully enclosed CoreXY. Supporting filaments listed: PLA, PETG, TPU, ABS, ASA. Active drying is listed as not supported. No chamber-heater temperature is stated.",
+      "supported_materials": [
+        "PLA",
+        "PETG",
+        "TPU",
+        "ABS",
+        "ASA"
+      ],
+      "slicers": [
+        "Anycubic Slicer Next"
+      ],
+      "standout_features": [
+        "Enclosed CoreXY",
+        "Optional ACE Pro multi-color"
+      ],
+      "print_speed_mm_s": 300,
+      "material_note": "TPU 95A is single-color via an external spool and cannot use ACE Pro. Other grades need their own validated profiles.",
+      "description": "Enclosed CoreXY printer with a 250 mm build cube and quick-release 320°C hotend. Optional ACE Pro provides drying and four- or eight-color feeding; TPU uses the external single-color path."
+    },
+    {
+      "id": "qidi-plus4",
+      "brand": "QIDI",
+      "model": "Plus4",
+      "motion": "CoreXY",
+      "price_usd": 649,
+      "price_note": "Sale price $649 USD. Regular price shown as $799.",
+      "price_source_url": "https://us.qidi3d.com/products/plus4-3d-printer",
+      "build_volume_mm": {
+        "x": 305,
+        "y": 305,
+        "z": 280
+      },
+      "build_volume_note": null,
+      "enclosed": true,
+      "heated_chamber": true,
+      "chamber_max_c": 65,
+      "max_nozzle_c": 370,
+      "max_bed_c": 120,
+      "multi_material": {
+        "system": "QIDI Box",
+        "type": "filament changer, optional",
+        "slots": 4,
+        "max_slots": 16,
+        "note": "One compatible QIDI Box supplies four filament channels. Up to four Boxes and the required expansion accessories provide 16 colors; filament compatibility differs from direct external feeding."
+      },
+      "top_speed_mm_s": 600,
+      "speed_note": "Manufacturer maximum toolhead speed: 600 mm/s. Actual printing speed is limited by the material and slicing profile.",
+      "best_for": "Large engineering-material parts with an actively heated chamber.",
+      "skill_level": "advanced",
+      "source_urls": [
+        "https://us.qidi3d.com/pages/qidi-plus-4-techspecs",
+        "https://us.qidi3d.com/products/plus4-3d-printer",
+        "https://us.qidi3d.com/products/qidi-box"
+      ],
+      "last_checked": "2026-11-07",
+      "notes": "Dedicated manufacturer technical specifications used; older product-page body text contains conflicting speed and bed-temperature figures.",
+      "supported_materials": [
+        "PLA",
+        "ABS",
+        "ASA",
+        "PETG",
+        "TPU",
+        "PA",
+        "PC",
+        "CF/GF composites"
+      ],
+      "slicers": [
+        "QIDI Studio",
+        "OrcaSlicer",
+        "PrusaSlicer"
+      ],
+      "standout_features": [
+        "65°C actively heated chamber",
+        "370°C hotend"
+      ],
+      "image_url": "https://us.qidi3d.com/cdn/shop/files/da99d73c6028d2e89ce37288acf652c8.png?v=1773471298",
+      "image_source_url": "https://us.qidi3d.com/pages/qidi-plus-4-techspecs",
+      "connectivity": [
+        "Wi-Fi 2.4 GHz",
+        "Ethernet",
+        "USB"
+      ],
+      "description": "Enclosed CoreXY printer with a 305 × 305 × 280 mm build area, a 370°C nozzle and an independently heated 65°C chamber. Optional QIDI Box adds multi-color feeding and filament drying."
+    },
+    {
+      "id": "creality-k3",
+      "brand": "Creality",
+      "model": "K3",
+      "motion": "CoreXY",
+      "price_usd": null,
+      "price_note": "Check the manufacturer for current regional pricing.",
+      "price_source_url": null,
+      "build_volume_mm": {
+        "x": 260,
+        "y": 260,
+        "z": 260
+      },
+      "build_volume_note": null,
+      "enclosed": false,
+      "heated_chamber": null,
+      "chamber_max_c": null,
+      "max_nozzle_c": 300,
+      "max_bed_c": 100,
+      "multi_material": {
+        "system": "KliTek",
+        "type": "Four independent nozzles",
+        "slots": 4,
+        "max_slots": 4,
+        "note": "Four-color system; material compatibility depends on the feed path."
+      },
+      "top_speed_mm_s": 500,
+      "speed_note": "Manufacturer maximum print speed; actual speed depends on material and geometry.",
+      "best_for": "Multi-color printing",
+      "skill_level": "beginner",
+      "source_urls": [
+        "https://store.creality.com/eu/products/creality-k3-3d-printer"
+      ],
+      "last_checked": "2026-11-07",
+      "notes": "",
+      "supported_materials": [
+        "PLA",
+        "PETG",
+        "PET",
+        "PLA-CF/GF",
+        "PETG-CF/GF",
+        "PCTG",
+        "TPU 95A"
+      ],
+      "slicers": [
+        "Creality Print 7.0+"
+      ],
+      "standout_features": [
+        "Four independent nozzles",
+        "Automatic nozzle changes",
+        "Optional top cover"
+      ],
+      "conditional_materials": [
+        {
+          "materials": [
+            "ABS",
+            "ASA",
+            "ASA-CF",
+            "PP",
+            "PC",
+            "PA",
+            "PA-CF",
+            "PP-CF/GF"
+          ],
+          "requires": "Optional top cover"
+        },
+        {
+          "materials": [
+            "BVOH",
+            "PVA",
+            "TPE",
+            "TPU 90A/85A"
+          ],
+          "requires": "Optional TPU kit"
+        }
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0593/2587/4251/files/Manual_Turntable1_69.png?v=1793350288",
+      "enclosure_note": "Open top as standard; top cover is optional.",
+      "image_source_url": "https://store.creality.com/eu/products/creality-k3-3d-printer",
+      "description": "Four-nozzle multi-color printer with a 260 mm build cube. Independent nozzles change automatically; an optional top cover and TPU kit expand its supported-material options."
+    },
+    {
+      "id": "creality-sparkx-i8",
+      "brand": "Creality",
+      "model": "SPARKX i8",
+      "motion": "Bed slinger",
+      "price_usd": null,
+      "price_note": "Check the manufacturer for current regional pricing.",
+      "price_source_url": null,
+      "build_volume_mm": {
+        "x": 260,
+        "y": 260,
+        "z": 255
+      },
+      "build_volume_note": null,
+      "enclosed": false,
+      "heated_chamber": false,
+      "chamber_max_c": null,
+      "max_nozzle_c": 300,
+      "max_bed_c": 100,
+      "multi_material": {
+        "system": "QuarTeks",
+        "type": "Four channels, one nozzle",
+        "slots": 4,
+        "max_slots": 4,
+        "note": "Four-color system; material compatibility depends on the feed path."
+      },
+      "top_speed_mm_s": 500,
+      "speed_note": "Manufacturer maximum print speed; actual speed depends on material and geometry.",
+      "best_for": "Multi-color printing",
+      "skill_level": "beginner",
+      "source_urls": [
+        "https://store.creality.com/uk/pages/sparkx-i8",
+        "https://wiki.creality.com/en/sparkx/i8/spool-filament-compatibility"
+      ],
+      "last_checked": "2026-11-07",
+      "notes": "",
+      "supported_materials": [
+        "PLA",
+        "PETG"
+      ],
+      "slicers": [
+        "Creality Print 7.0+"
+      ],
+      "standout_features": [
+        "Four-channel QuarTeks hotend",
+        "720p camera",
+        "13 monitoring sensors"
+      ],
+      "material_note": "Use the same base material for multicolor jobs. Do not use PLA and PETG as each other’s support on this model.",
+      "image_url": "https://cdn.shopify.com/s/files/1/0893/0603/8637/files/creality-sparkx-i8-multicolor-3d-printer.jpg?v=1793614096",
+      "image_source_url": "https://store.creality.com/uk/pages/sparkx-i8",
+      "description": "Open-frame four-color printer with a 260 × 260 × 255 mm build area. QuarTeks routes four channels through one nozzle; a 720p camera and monitoring sensors help track printing conditions."
+    }
+  ]
+}

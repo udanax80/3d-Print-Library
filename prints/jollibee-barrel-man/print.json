@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "jollibee-barrel-man",
+  "title": "Jollibee Barrel Man",
+  "description": "A Jollibee-inspired barrel man at 65% scale. The body is about 133 mm tall. Both files are complete Bambu Studio projects for a Bambu X1C or X2D, in five PLA colors (red, yellow, cream, white, and black). Body and arms use 0.12 mm layers. The barrel sleeve uses 0.16 mm layers. Each project has four plates: the bee body, the barrel sleeve, both arms, and a spring insert with a fit coupon. The saved profile is the Bambu Lab X1 Carbon with a 0.4 mm nozzle. barrelman_complete_65.3mf is the wood barrel with black hoops (the wood tone is the cream filament). barrelman_complete_65_stripes.3mf is the red and yellow striped barrel with black hoops.",
+  "note": "Jollibee is a trademark of its owner. This is an unofficial fan-inspired figure, not affiliated with or endorsed by Jollibee.",
+  "added": "2026-11-07",
+  "author": "Jon D",
+  "printer": "Bambu X1C/X2D",
+  "slicer": "Bambu Studio",
+  "material": {
+    "type": "PLA",
+    "colors": [
+      {"name": "red", "hex": "#ED1B24"},
+      {"name": "yellow", "hex": "#FFE12E"},
+      {"name": "cream", "hex": "#F6D2AD"},
+      {"name": "white", "hex": "#FAFAFF"},
+      {"name": "black", "hex": "#202127"}
+    ]
+  },
+  "layer_height_mm": {
+    "body": 0.12,
+    "barrel": 0.16
+  },
+  "scale_percent": 65,
+  "body_height_mm": 133,
+  "license": "CC BY-NC-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "files": [
+    {
+      "filename": "barrelman_complete_65.3mf",
+      "description": "Wood barrel with black hoops",
+      "bytes": 3050092
+    },
+    {
+      "filename": "barrelman_complete_65_stripes.3mf",
+      "description": "Red/yellow stripe barrel",
+      "bytes": 3093578
+    }
+  ],
+  "images": [
+    {
+      "filename": "images/plate1_Bee_body_65.png",
+      "alt": "Slicer preview of the multicolor bee body on plate 1 at 65 percent scale",
+      "caption": "Plate 1 — bee body at 65%"
+    },
+    {
+      "filename": "images/plate2_Barrel_sleeve_65.png",
+      "alt": "Slicer preview of the cream wood-tone barrel sleeve with black hoops",
+      "caption": "Plate 2 — wood barrel with black hoops"
+    },
+    {
+      "filename": "images/plate2_Barrel_sleeve_stripes_65.png",
+      "alt": "Slicer preview of the red and yellow striped barrel sleeve with black hoops",
+      "caption": "Plate 2 — red/yellow stripe barrel"
+    },
+    {
+      "filename": "images/after_barrel_wood_hoops_34.png",
+      "alt": "Color study of the wood barrel sleeve with black hoops",
+      "caption": "Color study — wood barrel and black hoops"
+    },
+    {
+      "filename": "images/after_barrel_stripes_hoops_34.png",
+      "alt": "Color study of the red and yellow striped barrel with black hoops",
+      "caption": "Color study — red/yellow stripes and black hoops"
+    }
+  ]
+}

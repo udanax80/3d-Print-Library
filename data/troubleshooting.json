@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-07",
+  "disclaimer": "Causes are ordered from most likely and cheapest to try. Change one thing at a time. Temperatures here are the same starting points as the Fix page, not universal settings.",
+  "defects": [
+    {
+      "id": "stringing",
+      "title": "Stringing",
+      "symptom": "Fine hairs or threads between separate parts of the print.",
+      "difficulty": "easy",
+      "image": "docs/assets/img/fix-stringing.svg",
+      "page": "fix/index.md#stringing",
+      "causes": [
+        {"cause": "Wet filament, especially PETG, TPU, or nylon", "fix": "Dry the spool, then print again before you change retraction."},
+        {"cause": "Nozzle too hot", "fix": "Drop 5–10 °C, or run a temperature tower."},
+        {"cause": "Retraction too short or too slow", "fix": "Run a retraction test. Direct drive is often around 0.4–1.5 mm."},
+        {"cause": "Long travels across open air", "fix": "Turn on avoid-crossing-walls or combing, and place parts closer together."},
+        {"cause": "Pressure advance off", "fix": "Calibrate pressure advance or flow dynamics."}
+      ],
+      "source_urls": ["https://help.prusa3d.com/article/stringing-and-oozing_1805"]
+    },
+    {
+      "id": "warping",
+      "title": "Warping",
+      "symptom": "Corners lift, or the base curls up off the plate.",
+      "difficulty": "medium",
+      "image": "docs/assets/img/fix-warping.svg",
+      "page": "fix/index.md#warping",
+      "causes": [
+        {"cause": "The part cools much faster than the air around it (ABS, ASA, PC, nylon)", "fix": "Close the enclosure, preheat the chamber, and keep drafts and air conditioning off the printer."},
+        {"cause": "Too much part cooling", "fix": "Turn the fan down or off for ABS, ASA, and PC. Use a little fan only on overhangs."},
+        {"cause": "Weak first-layer grip", "fix": "Wash the plate, use glue if the material needs it, and check first-layer squish."},
+        {"cause": "Sharp corners on a large footprint", "fix": "Add a brim or mouse ears. Round the corners in the model if you can."},
+        {"cause": "Printing too fast", "fix": "Slow the first layers and the outer walls."}
+      ],
+      "source_urls": ["https://help.prusa3d.com/article/warping_2011", "https://help.prusa3d.com/article/enclosure-guidepost_366332"]
+    },
+    {
+      "id": "layer-shift",
+      "title": "Layer shift",
+      "symptom": "Layers step sideways, like a staircase, partway up the print.",
+      "difficulty": "medium",
+      "image": "docs/assets/img/fix-layer-shift.svg",
+      "page": "fix/index.md#layer-shifts",
+      "causes": [
+        {"cause": "The nozzle hit a curled corner or a blob", "fix": "Fix the warp or the curl. Turn on Z-hop. Cool overhangs more on PLA and PETG."},
+        {"cause": "Loose belt or a pulley grub screw", "fix": "Set belt tension the way the maker describes. Tighten the grub screw onto the flat of the shaft."},
+        {"cause": "Something blocked the axis", "fix": "Check cables, filament scraps, and a spool that cannot unwind."},
+        {"cause": "Acceleration too high for this machine", "fix": "Lower speed and acceleration. Re-run input shaping if the printer has it."},
+        {"cause": "A motor or driver overheating", "fix": "Make sure the electronics have airflow."}
+      ],
+      "source_urls": ["https://help.prusa3d.com/article/layer-shifting_2020", "https://ellis3dp.com/Print-Tuning-Guide/articles/troubleshooting/layer_shifting.html"]
+    },
+    {
+      "id": "elephants-foot",
+      "title": "Elephant's foot",
+      "symptom": "The first layers bulge wider than the rest of the part.",
+      "difficulty": "easy",
+      "image": "docs/assets/img/fix-elephants-foot.svg",
+      "page": "fix/index.md#elephants-foot",
+      "causes": [
+        {"cause": "Nozzle too close on the first layer", "fix": "Raise Z-offset a little, or run bed leveling again."},
+        {"cause": "Bed hot enough that the bottom stays soft", "fix": "Lower the bed 5–10 °C after the first layer."},
+        {"cause": "A heavy part sitting on soft bottom layers", "fix": "Use elephant's-foot compensation around 0.1–0.2 mm, or chamfer the bottom edge in CAD."}
+      ],
+      "source_urls": ["https://help.prusa3d.com/article/elephant-foot-compensation_114487"]
+    },
+    {
+      "id": "under-extrusion",
+      "title": "Under-extrusion",
+      "symptom": "Gaps, thin walls, or missing lines. The part looks starved of plastic.",
+      "difficulty": "medium",
+      "image": "docs/assets/img/fix-under-extrusion.svg",
+      "page": "fix/index.md#under-extrusion",
+      "causes": [
+        {"cause": "Printing faster than the hotend can melt", "fix": "Slow down, or set a max volumetric speed from a calibration print."},
+        {"cause": "Partial clog or a worn nozzle", "fix": "Cold pull, or replace the nozzle. Fiber-filled filament wears brass quickly."},
+        {"cause": "Nozzle too close on the first layer", "fix": "Re-level and adjust Z-offset."},
+        {"cause": "Dirty extruder gears or wrong idler tension", "fix": "Clean the gears and check tension."},
+        {"cause": "Heat creep, especially PLA in a closed hot box", "fix": "Open the lid or door for PLA and check the hotend fan."},
+        {"cause": "Wet filament, a tangle, or drag from a filament changer", "fix": "Dry the spool and check the path from spool to nozzle."},
+        {"cause": "Flow ratio off", "fix": "Run a flow calibration."}
+      ],
+      "source_urls": ["https://help.prusa3d.com/article/under-extrusion_2007"]
+    },
+    {
+      "id": "z-banding",
+      "title": "Z-banding",
+      "symptom": "Regular horizontal ridges repeating up the walls.",
+      "difficulty": "hard",
+      "image": "docs/assets/img/fix-z-banding.svg",
+      "page": "fix/index.md#z-banding",
+      "causes": [
+        {"cause": "Lead screw or Z coupler binding, dirty, or misaligned", "fix": "Clean the screws, check the coupler, and make sure Z moves freely. Lubricate only where the maker says to."},
+        {"cause": "Layer height fighting the Z motor's step size", "fix": "Try a layer height the community calls a magic number for that lead screw, often a multiple of 0.04 mm on 8 mm-lead machines."},
+        {"cause": "Bed or hotend temperature swinging", "fix": "Run PID tuning and check that the thermistor is seated."},
+        {"cause": "Uneven filament diameter or a wet spool", "fix": "Try a known-good spool."},
+        {"cause": "Loose frame or gantry", "fix": "Check frame screws and the rollers or linear rails."}
+      ],
+      "source_urls": ["https://help.prusa3d.com/article/regular-printer-maintenance-mk4-s-mk3-9-s_419000"]
+    },
+    {
+      "id": "bed-adhesion",
+      "title": "Bed adhesion",
+      "symptom": "The first layer will not stick, or the part pops off mid-print.",
+      "difficulty": "easy",
+      "image": "docs/assets/img/fix-bed-adhesion.svg",
+      "page": "fix/index.md#bed-adhesion",
+      "causes": [
+        {"cause": "Oil or fingerprints on the plate", "fix": "Wash PEI with dish soap and hot water. Wipe with isopropyl alcohol between prints."},
+        {"cause": "Z-offset too high", "fix": "Lower it until the lines are flat and touching, not round or see-through."},
+        {"cause": "Wrong plate or release agent", "fix": "PETG on smooth PEI wants glue as a release layer. ABS, ASA, PC, and nylon usually want glue for grip."},
+        {"cause": "Bed temperature off", "fix": "Start from the material table. Too hot can make PLA sag."},
+        {"cause": "Drafts or a cold room", "fix": "Close the enclosure. Keep fans and air conditioning off the plate."},
+        {"cause": "Very small contact area", "fix": "Add a brim, or turn the part so more of it touches the plate."}
+      ],
+      "source_urls": ["https://help.prusa3d.com/article/first-layer-issues_1804", "https://ellis3dp.com/Print-Tuning-Guide/articles/troubleshooting/build_surface_adhesion.html"]
+    },
+    {
+      "id": "wet-filament",
+      "title": "Wet filament",
+      "symptom": "Popping or hissing at the nozzle, a rough or fuzzy surface, or sudden stringing on a profile that used to work.",
+      "difficulty": "easy",
+      "image": "docs/assets/img/fix-wet-filament.svg",
+      "page": "fix/index.md#wet-filament",
+      "causes": [
+        {"cause": "The spool absorbed water", "fix": "Dry it at the temperature and time on the material page, then store it sealed with desiccant."},
+        {"cause": "A profile that used to be fine suddenly strings", "fix": "Dry the spool before you retune retraction."},
+        {"cause": "Weak layers or filament that snaps", "fix": "Dry it. If it is still brittle, the spool may be too old to save."},
+        {"cause": "Nylon supports that will not come off", "fix": "Bambu's support note: remove PA supports within about two hours, before the part drinks moisture."}
+      ],
+      "source_urls": ["https://help.prusa3d.com/article/drying-filament_332086", "https://wiki.bambulab.com/en/filament-acc/filament/dry-filament"]
+    },
+    {
+      "id": "spaghetti",
+      "title": "Spaghetti",
+      "symptom": "A loose nest of filament, usually because the part detached or a layer printed in the air.",
+      "difficulty": "easy",
+      "image": "docs/assets/img/fix-bed-adhesion.svg",
+      "page": "fix/index.md#bed-adhesion",
+      "causes": [
+        {"cause": "The part let go of the plate", "fix": "Stop the print. Fix adhesion: clean plate, Z-offset, brim, and no drafts."},
+        {"cause": "Nobody noticed the first layer fail", "fix": "Watch the first layer, or turn on the printer's failure detection if it has a camera."}
+      ],
+      "source_urls": ["https://help.prusa3d.com/article/first-layer-issues_1804"]
+    },
+    {
+      "id": "clog",
+      "title": "Nozzle clog",
+      "symptom": "The extruder clicks, plastic stops coming out, or the print turns hollow partway up.",
+      "difficulty": "medium",
+      "image": "docs/assets/img/fix-under-extrusion.svg",
+      "page": "fix/index.md#under-extrusion",
+      "causes": [
+        {"cause": "Debris or cooked plastic in the nozzle", "fix": "Heat the nozzle and do a cold pull using your printer's temperatures, or swap the nozzle."},
+        {"cause": "Heat creep on PLA", "fix": "Open the enclosure and confirm the hotend fan spins."},
+        {"cause": "Nozzle ground into the plate", "fix": "Raise Z-offset so the first layer is not transparent."},
+        {"cause": "Fiber-filled filament in a brass nozzle", "fix": "Fit a hardened nozzle."}
+      ],
+      "source_urls": ["https://help.prusa3d.com/article/under-extrusion_2007"]
+    }
+  ]
+}
