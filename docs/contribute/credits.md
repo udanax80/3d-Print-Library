@@ -10,7 +10,7 @@ tags:
 ## Third-party guides
 
 !!! warning "AD3D (@ad3duae) guides: permission needed before publishing"
-    Several pages ([Slicer tips](../prepare/slicer-tips.md), [Material notes](../materials/material-notes.md)) are **organized from instructional visuals posted by AD3D (@ad3duae)**. This public site contains **my own written summaries only. The original images are not republished here.**
+    Several pages ([Slicer tips](../prepare/slicer-tips.md), [Speed, top surface & wall order](../prepare/speed-surface-walls.md), [Material notes](../materials/material-notes.md), and the generator list on [Model sources](../choose/model-sources.md)) are **organized from instructional visuals posted by AD3D (@ad3duae)**. This public site contains **my own written summaries only. The original images are not republished here.**
 
     **Before making this site public:** ask AD3D for permission to share the summaries (and to link or embed the visuals, if wanted), or rewrite those sections from primary sources (Bambu Lab Wiki, Prusa KB). Keep the credit line either way.
 

@@ -56,3 +56,4 @@ Account for material shrink (ABS/PA more than PLA) and **elephant's foot** on ma
 - **Fillets** at stress points. **Chamfers** on bottom edges (not fillets, which overhang).
 - Text: embossed ≥ 0.6 mm tall and ≥ 1 mm wide strokes print best on vertical faces.
 - Design multi-color parts as separate bodies (or 3MF parts) so the slicer can assign filaments.
+- No CAD yet? A generator can make bins, trays, gears, and adapters from dimensions you type in. See [No-CAD generators](../choose/model-sources.md#no-cad-generators-that-make-the-model-for-you).

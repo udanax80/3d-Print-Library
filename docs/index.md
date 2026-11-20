@@ -57,7 +57,7 @@ hide:
 | **[Choose](choose/index.md)** | Where do I get a model, can I share or sell it, and which printer should run it? |
 | **[Fleet](fleet/index.md)** | What can each printer actually do? |
 | **[Materials](materials/index.md)** | Which filament, what temperatures, does it need drying or an enclosure? |
-| **[Prepare](prepare/index.md)** | How do I calibrate, set seams and supports, and plan multi-material jobs? |
+| **[Prepare](prepare/index.md)** | How do I calibrate, set seams, supports, speeds, and wall order, and plan multi-material jobs? |
 | **[Fix](fix/index.md)** | Something went wrong. What's the likely cause? |
 | **[Design](design/index.md)** | I'm modeling a part. What tolerances, holes, orientation, and walls should I use? |
 | **[Finish](finish/index.md)** | Support removal, sanding, smoothing, painting, inserts. |
@@ -70,4 +70,4 @@ hide:
 
 ---
 
-<small>Fleet notes last checked **October 31, 2026**. Beginner pages, print files, and JSON catalogs were checked **November 7, 2026**. Private lab tools stay on my personal dashboard and aren't part of this public site. Print-ready files are on [Recent prints](prints/index.md). Dashboards can fetch [`data/index.json`](https://raw.githubusercontent.com/udanax80/3d-Print-Library/main/data/index.json).</small>
+<small>Fleet notes last checked **October 31, 2026**. Beginner pages, print files, and JSON catalogs were checked **November 7, 2026**. Speed, top-surface, wall-order, and generator notes were added **November 20, 2026**. Private lab tools stay on my personal dashboard and aren't part of this public site. Print-ready files are on [Recent prints](prints/index.md). Dashboards can fetch [`data/index.json`](https://raw.githubusercontent.com/udanax80/3d-Print-Library/main/data/index.json).</small>

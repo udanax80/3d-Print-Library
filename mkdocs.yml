@@ -111,6 +111,7 @@ nav:
       - Slicer basics: prepare/slicer-basics.md
       - Calibration sequence: prepare/calibration.md
       - Slicer tips (seams, supports, strength): prepare/slicer-tips.md
+      - Speed, top surface & wall order: prepare/speed-surface-walls.md
       - Multi-material planning: prepare/multi-material.md
   - Fix:
       - Troubleshooting by symptom: fix/index.md
