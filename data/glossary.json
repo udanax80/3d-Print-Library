@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-07",
+  "updated": "2026-11-20",
   "disclaimer": "Short plain-language definitions for this site. They are not a standard from any one manufacturer.",
   "terms": [
     {"id": "fdm", "term": "FDM / FFF", "definition": "Fused deposition modeling, also called fused filament fabrication. A printer melts plastic filament and draws the part one layer at a time."},
@@ -75,6 +75,12 @@
     {"id": "clog", "term": "Clog", "definition": "A blockage in the nozzle or hotend. The extruder clicks, and the print goes hollow. Heat creep, debris, or a nozzle too close to the plate are common causes."},
     {"id": "heat-creep", "term": "Heat creep", "definition": "Heat traveling too far up the hotend so filament softens and jams before the melt zone. Classic PLA failure inside a hot closed box."},
     {"id": "spaghetti", "term": "Spaghetti", "definition": "A bird's nest of filament because the part came off the plate or a layer printed in the air. Stop the print. The nozzle is fine; the part is not."},
-    {"id": "live-z", "term": "Live Z", "definition": "Adjusting the nozzle height while the first layer is printing. Prusa's name for a Z-offset tweak you can do in real time."}
+    {"id": "live-z", "term": "Live Z", "definition": "Adjusting the nozzle height while the first layer is printing. Prusa's name for a Z-offset tweak you can do in real time."},
+    {"id": "wall-order", "term": "Wall order", "definition": "The sequence the slicer prints a layer's walls in. Inner first, then outer, is the usual default and is best for overhangs. Outer first, or inner/outer/inner, can give a cleaner outside surface on parts without steep overhangs."},
+    {"id": "monotonic", "term": "Monotonic", "definition": "A top-surface fill where every line is laid in the same direction and order, side by side. It avoids the shiny and dull patches you get when lines are filled in from two directions."},
+    {"id": "line-width", "term": "Line width", "definition": "How wide the slicer makes each extruded line. It is usually a little wider than the nozzle, such as 0.42 to 0.45 mm on a 0.4 mm nozzle."},
+    {"id": "top-shell-layers", "term": "Top shell layers", "definition": "How many solid layers close the top of a part over the infill. Too few and the infill pattern shows through or leaves holes. Five at 0.20 mm is a common default."},
+    {"id": "gridfinity", "term": "Gridfinity", "definition": "A free, open storage system built on a 42 mm grid. Bins drop into a baseplate so drawers and shelves stay sorted. Online generators make bins and baseplates in custom sizes."},
+    {"id": "parametric-generator", "term": "Parametric generator", "definition": "A web tool that builds a model from numbers you type in, such as width, height, and wall thickness. You get a printable file without opening CAD."}
   ]
 }

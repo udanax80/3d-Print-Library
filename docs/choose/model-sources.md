@@ -20,6 +20,24 @@ tags:
 !!! note "3MF vs STL vs OBJ"
     **STL** is geometry only. **3MF** can carry plates, colors, modifiers, and slicer settings. **OBJ** can carry color through a companion **MTL** file, so keep them together when importing. (From my *OBJ vs. STL in Bambu Studio* guide; import behavior varies by slicer version.)
 
+## No CAD? Generators that make the model for you
+
+Type in dimensions, get a printable file. Good for bins, trays, gears, adapters, and gifts when you do not want to open CAD. Each site was opened and checked on November 20, 2026. Features and pricing can change.
+
+| Site | Makes | Export | Cost and account |
+|---|---|---|---|
+| [Gridmint](https://gridmint.net/) | Gridfinity drawer layouts, bins, and baseplates split to fit your bed. Also turns a photo of a tool into a fitted insert | STL, STEP, 3MF, Bambu Studio project | Free. No account needed |
+| [Perplexing Labs Gridfinity](https://gridfinity.perplexinglabs.com/) | Gridfinity bins and baseplates at custom sizes. Also openGrid, Multiboard, and honeycomb wall parts | STL | Not stated on the page. It also offers to sell you the printed part |
+| [STLGen](https://stlgen.org/) | 123 generators: boxes, vases, gears, planetary sets, lithophanes, keychains, QR codes, star maps, dice, spare parts | STL | Free. No sign-up. Runs in the browser |
+| [LazyFabrication](https://lazyfabrication.com/) | 25 generators: boxes, drawer dividers, gears, pulleys, hose adapters, funnels, project enclosures, IKEA SKÅDIS parts | STL and STEP | Free. No sign-up |
+| [Make3D Lab](https://make3dlab.com/) | 3D signs, parametric organizer trays, threaded jars, custom parts | STL and 3MF | Not stated on the home page |
+| [SkipTheCAD](https://skipthecad.com/) | A directory, not a generator: 693 no-CAD tools in 15 categories | Depends on the tool | Free directory. It lists 522 of the tools as free. Some links are affiliate links |
+
+**Which one first:** organizing a drawer → **Gridmint**. One odd part (adapter, knob, gear, box) → **STLGen**, then **LazyFabrication** if you want a STEP file to edit later. Nothing fits → search **SkipTheCAD**.
+
+!!! tip "Check a generated part like any download"
+    Slice it and look at the preview before printing. Print one bin or one small section first, and check the fit, before you print a whole drawer's worth.
+
 ## Licenses: can I share, remix, or sell it?
 
 Most community models use [Creative Commons licenses](https://creativecommons.org/licenses/). Read them from the model page every time, because uploaders change them.

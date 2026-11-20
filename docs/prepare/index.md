@@ -9,6 +9,7 @@ Everything between "I have a model" and "press print":
 - **[Slicer basics](slicer-basics.md)**: the ten settings that matter if you are new.
 - **[Calibration sequence](calibration.md)**: tune each new filament on each printer once, then save the profile.
 - **[Slicer tips](slicer-tips.md)**: seam placement, support tuning, and strength settings.
+- **[Speed, top surface & wall order](speed-surface-walls.md)**: which speeds to slow down, smoother tops, and which wall order to pick.
 - **[Multi-material planning](multi-material.md)**: tool changer vs AMS/CFS, purge, and support-interface pairs.
 
 **Pre-flight checklist**
